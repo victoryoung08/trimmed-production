@@ -1,22 +1,10 @@
-import Hero from "@/components/blocks/hero/hero";
 import HomeHero from "@/components/pages/home/HomeHero";
-import { CircleCheck } from "lucide-react";
-import cloudinary from "../utils/cloudinary";
-import Image from "next/image";
-import { cloudinary_urls as images } from "../utils/cloudinary";
+
 import FeatureRow from "@/components/blocks/feature/FeatureRow";
 import ThreeStepFeature from "@/components/blocks/feature/ThreeFeatureIcons";
 import GridCards from "@/components/blocks/grid/GridCards";
 
 export default async function Home() {
-  // const { resources: images } = await cloudinary.search
-  //   .expression("folder=trimmed-marketing/images")
-  //   .execute();
-  // const urls = images.map((image: any) => {
-  //   return { name: image.filename, id: image.asset_id, url: image.secure_url };
-  // });
-  // console.log(urls);
-
   return (
     <main>
       <HomeHero />
@@ -57,7 +45,7 @@ export default async function Home() {
         alignment="left"
       >
         <p>
-          "So what exactly do you do?"{" "}
+          &quot;So what exactly do you do?&quot;
           <span className="font-semibold">- yikes</span>
         </p>
         <p>A common symptom to misguided, misdirected and misaligned message</p>
@@ -81,21 +69,7 @@ export default async function Home() {
           text: "Get A Free Marketing Audit",
         }}
         alignment="left"
-      >
-        <p>
-          "So what exactly do you do?"{" "}
-          <span className="font-semibold">- yikes</span>
-        </p>
-        <p>A common symptom to misguided, misdirected and misaligned message</p>
-        <p>
-          We&apos;ll take what you do, and put it in front of your customers in
-          a way they actually understand.
-        </p>
-        <p>
-          People like you and I only buy from the best. Let&apos;s communicate
-          this.
-        </p>
-      </FeatureRow>
+      ></FeatureRow>
       <ThreeStepFeature
         heading="How we power ROAS"
         body="We keep things simple and focus on 3 core drivers of success for all campaigns"

@@ -1,20 +1,19 @@
 "use client";
-import { CircleCheck, Cross, XCircle } from "lucide-react";
+import { CircleCheck, XCircle } from "lucide-react";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
-import { CldImage } from "next-cloudinary";
 export default function HomeHero() {
   const [showModal, setShowModal] = useState(false);
-  const getImages = async () => {
-    const images = await fetch("/api/cloudinary", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    const data = await images.json();
-    console.log(data);
-  };
+  // const getImages = async () => {
+  //   const images = await fetch("/api/cloudinary", {
+  //     method: "GET",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //   });
+  //   const data = await images.json();
+  //   console.log(data);
+  // };
 
   const toggleModal = () => {
     setShowModal(!showModal);

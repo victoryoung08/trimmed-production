@@ -13,7 +13,7 @@ type FeatureRowProps = {
     class?: string;
   };
   alignment?: "left" | "right";
-  children: React.ReactNode;
+  children?: React.ReactNode;
 };
 
 export default function FeatureRow(props: FeatureRowProps) {

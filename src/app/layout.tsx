@@ -24,7 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>{children}</body>
+      <body
+        className={`${beVietnamPro.className} ${interTight.className} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
