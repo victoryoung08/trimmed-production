@@ -1,0 +1,289 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 86 21% 94%;
+    --foreground: 0 0% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+    --primary: 14 99% 63%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 204 81% 66%;
+    --secondary-foreground: 0 0% 13%;
+    --muted: 0 1% 83%;
+    --muted-foreground: 25 5.3% 44.7%;
+    /* --accent: 60 4.8% 95.9%; */
+    --accent: 204 81% 66%;
+    --accent-foreground: 24 9.8% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 20 14.3% 4.1%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 86 21% 94%;
+    --card: 20 14.3% 4.1%;
+    --card-foreground: 60 9.1% 97.8%;
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 9.1% 97.8%;
+    --primary: 60 9.1% 97.8%;
+    --primary-foreground: 24 9.8% 10%;
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+    /* --accent: 12 6.5% 15.1%; */
+    --accent: 204 81% 66%;
+    --accent-blue: 204 8.1% 66%;
+    --accent-foreground: 60 9.1% 97.8%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 24 5.7% 82.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+}
+
+body {
+  font-size: 20px;
+  letter-spacing: -0.05rem;
+  font-weight: 400;
+  color: rgb(var(--text-foreground));
+  font-family: var(--font-inter-tight);
+  @apply bg-background text-foreground;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-be-vietnam-pro);
+}
+
+/* p,
+span,
+a,
+em,
+strong,
+i,
+b,
+u,
+s,
+del,
+q,
+cite,
+code,
+kbd,
+samp,
+var,
+mark,
+small,
+ins,
+sub,
+sup,
+time,
+abbr,
+dfn,
+label {
+  font-size: 20px;
+  letter-spacing: -0.05rem;
+  font-weight: 400;
+  color: rgb(var(--text-foreground));
+} */
+
+/* Section Padding */
+.section-padding-small {
+  padding: 64px 0px;
+  @media (max-width: 768px) {
+    padding: 36px 0px;
+  }
+}
+.section-padding-medium {
+  padding: 96px 0px;
+  @media (max-width: 768px) {
+    padding: 48px 0px;
+  }
+}
+.section-padding-large {
+  padding: 128px 0px;
+  @media (max-width: 768px) {
+    padding: 64px 0px;
+  }
+}
+
+.container-global {
+  @apply container px-4 md:px-12 mx-auto;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.25rem;
+  line-height: 100%;
+}
+
+h4 {
+  letter-spacing: -0.15rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.grid-card {
+  @apply p-10 md:p-16 md:pt-20 relative rounded-xl z-10;
+}
+
+.grid-card-image {
+  @apply absolute top-[-1rem] right-[0rem] max-w-[120px]  sm:top-[-1rem] lg:max-w-[160px] md:top-[-1rem] z-20;
+}
+
+.modal {
+  transition: all;
+  transition-duration: 0.5s;
+  opacity: 0;
+  @apply bg-black/50 backdrop-blur-sm fixed inset-0 ease-in-out opacity-0;
+}
+
+.modal.fade-in {
+  opacity: 100%;
+}
+
+.modal.fade-out {
+  opacity: 0;
+}
+
+.image-wrapper {
+  position: relative;
+  @apply max-w-md aspect-[3/2] my-8 mx-auto md:max-w-none md:h-[360px] md:w-[600px];
+}
+
+.lead-form-field {
+  @apply max-w-lg mx-auto flex  flex-col gap-4 py-12;
+}
+
+.lead-form-field-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.lead-form-field-input {
+  @apply border-[1px] rounded-md bg-input px-[8px] py-[12px];
+}
+
+.main-button {
+  @apply bg-primary text-primary-foreground px-4 py-4 rounded-xl font-semibold text-lg;
+}
+
+.main-button.dark {
+  @apply bg-background text-foreground;
+}
+
+.main-button.full {
+  @apply w-full;
+}
+
+/* EMBLA Carousel Slider */
+.embla {
+  overflow: hidden;
+  @apply relative text-primary max-w-4xl mx-auto;
+}
+.embla__container {
+  display: flex;
+  @apply h-[480px];
+}
+.embla__slide {
+  display: flex;
+  flex: 0 0 80%;
+  margin-right: 20px;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  @apply bg-muted;
+}
+
+.embla__slide:last-child {
+  margin-right: 0px;
+}
+.embla__slide:first-child {
+  margin-left: 20px;
+}
+
+.with-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 60px;
+  z-index: 20;
+  background-image: linear-gradient(
+    to right,
+    hsl(var(--background)),
+    hsl(var(--muted))
+  );
+}
+.with-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0px;
+  height: 100%;
+  width: 60px;
+  z-index: 20;
+  background-image: linear-gradient(
+    to right,
+    hsl(var(--muted)),
+    hsl(var(--background))
+  );
+}
