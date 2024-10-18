@@ -88,9 +88,11 @@ h4,
 h5,
 h6 {
   font-family: var(--font-be-vietnam-pro);
+  letter-spacing: -0.05em; /* Consistent letter-spacing for all headings */
+  line-height: 1.1; /* Slightly increased line-height for better readability */
 }
 
-/* p,
+p,
 span,
 a,
 em,
@@ -119,7 +121,7 @@ label {
   letter-spacing: -0.05rem;
   font-weight: 400;
   color: rgb(var(--text-foreground));
-} */
+}
 
 /* Section Padding */
 .section-padding-small {
@@ -129,9 +131,9 @@ label {
   }
 }
 .section-padding-medium {
-  padding: 96px 0px;
+  padding: 72px 12px;
   @media (max-width: 768px) {
-    padding: 48px 0px;
+    padding: 36px 20px;
   }
 }
 .section-padding-large {
@@ -145,40 +147,44 @@ label {
   @apply container px-4 md:px-12 mx-auto;
 }
 
-h1,
-h2,
-h3 {
-  letter-spacing: -0.25rem;
-  line-height: 100%;
-}
-
-h4 {
-  letter-spacing: -0.15rem;
-}
-
 h1 {
   font-size: 4.5rem;
   font-weight: 700;
+  @media (max-width: 768px) {
+    font-size: 3.4rem;
+  }
 }
 
 h2 {
   font-size: 3.75rem;
   font-weight: 700;
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
 }
 
 h3 {
   font-size: 3rem;
   font-weight: 700;
+  @media (max-width: 768px) {
+    font-size: 2.8rem;
+  }
 }
 
 h4 {
   font-size: 2.25rem;
   font-weight: 700;
+  @media (max-width: 768px) {
+    font-size: 2.2rem;
+  }
 }
 
 h5 {
   font-size: 1.8rem;
   font-weight: 700;
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 .grid-card {
@@ -222,7 +228,7 @@ h5 {
 }
 
 .main-button {
-  @apply bg-primary text-primary-foreground px-4 py-4 rounded-xl font-semibold text-lg;
+  @apply bg-primary text-primary-foreground px-4 py-4 rounded-xl font-medium text-lg capitalize;
 }
 
 .main-button.dark {
@@ -286,4 +292,12 @@ h5 {
     hsl(var(--muted)),
     hsl(var(--background))
   );
+}
+
+.checked-grid-card {
+  @apply flex h-[136px] md:h-[200px] p-4 outline outline-offset-0 outline-[1px] rounded-md outline-card-foreground cursor-pointer;
+}
+
+.checked-grid-card.checked {
+  @apply outline-[2px];
 }

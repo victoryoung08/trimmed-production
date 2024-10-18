@@ -1,4 +1,5 @@
 "use client";
+import CldImage from "@/components/ui/CldImage";
 import { CircleCheck, XCircle } from "lucide-react";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
@@ -19,50 +20,83 @@ export default function HomeHero() {
     setShowModal(!showModal);
   };
   return (
-    <section className="section-padding-medium relative">
-      <div className="text-center mx-auto max-w-4xl flex flex-col gap-8">
-        <div className="flex flex-col gap-4">
-          <h1>
-            Ship campaigns, <br className="hidden md:block" />
-            connect with customers
-          </h1>
-          <p>Build a pipeline of customers you love to work with.</p>
-        </div>
-        <div className="flex flex-col gap-4">
-          <h4>
-            Book a{"  "}
-            <span className="text-primary text-[36px] font-black tracking-[-0.25rem]">
-              {" "}
-              Free{" "}
-            </span>
-            Marketing Audit & Review
-          </h4>
-          <div>
-            <div className="flex items-start justify-center mx-auto gap-2">
-              <CircleCheck className="mt-2 flex-shrink" size={16} />
-              <p>Review the bottlenecks in your current marketing</p>
-            </div>
-            <div className="flex items-start justify-center mx-auto gap-2">
-              <CircleCheck className="mt-2" size={16} />
-              <p>
-                Learn what exactly your business needs better leads, more
-                customers
-              </p>
+    <section className="section-padding-small relative bg-foreground">
+      <div className="text-center mx-auto max-w-4xl bg-background rounded-2xl">
+        <div className="py-12 px-5 sm:p-24 flex flex-col items-center gap-8 relative">
+          <div className="absolute bottom-0 left-[-48px]">
+            <CldImage
+              name="hand-left_egznky"
+              alt="hand-left decoration"
+              size={128}
+            />
+          </div>
+          <div className="absolute bottom-0 right-[-44px]">
+            <CldImage
+              name="hand-right_azwdjw"
+              alt="hand-right decoration"
+              size={160}
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center gap-4">
+            <div className="flex items-center relative">
+              <h1 className="w-fit">Your All-In-One Revenue Chasers</h1>
+              <div className="absolute right-[-16px] lg:bottom-[30%] lg:right-[60px] -rotate-6">
+                <CldImage
+                  name="dollar-icon_n8be85"
+                  alt="hand-right decoration"
+                  size={28}
+                  imageClass=""
+                />
+              </div>
+              <div className="absolute top-0 left-[-4px] lg:top-[-12px] lg:left-[80px] -rotate-6">
+                <CldImage
+                  name="cog-icon_xkxrnk"
+                  alt="cog decoration"
+                  size={28}
+                  imageClass=""
+                />
+              </div>
             </div>
 
-            <div className="flex items-start justify-center mx-auto gap-2">
-              <CircleCheck className="mt-2 flex-shrink" size={16} />
-              <p>
-                Get an on the spot 90-day overview of what your marketing
-                initiative should look like
-              </p>
+            <p>
+              Ship marketing campaigns that drive revenue.
+              <br />
+              Leads, pipeline, prospects - you name it.
+            </p>
+            <div className="md:max-w-md mx-auto md:w-full py-4">
+              <button className="main-button full" onClick={toggleModal}>
+                Request a free revenue growth roadmap
+              </button>
             </div>
           </div>
-          <div>
-            <button className="main-button" onClick={toggleModal}>
-              Get a Free Audit
-            </button>
-          </div>
+          {/* <div className="flex flex-col gap-4">
+            <h5 className="leading-tight">
+              Request a Free Revenue Growth Roadmap
+            </h5>
+            <div className="sm:max-w-lg sm:w-full mx-auto">
+              <div className="flex items-start justify-start mx-auto gap-2">
+                <CircleCheck className="mt-2 flex-shrink-0" size={16} />
+                <p className="text-left">
+                  Identify leaky funnels and 22 optimisation points for your
+                  marketing campaign
+                </p>
+              </div>
+              <div className="flex items-start justify-start mx-auto gap-2">
+                <CircleCheck className="mt-2 flex-shrink-0" size={16} />
+                <p className="text-left">
+                  What your next 90 days will look like working together
+                </p>
+              </div>
+
+              <div className="flex items-start justify-start mx-auto gap-2">
+                <CircleCheck className="mt-2 flex-shrink-0" size={16} />
+                <p className="text-left">
+                  Chat about quick-wins and building long term channels
+                </p>
+              </div>
+            </div>
+
+          </div> */}
         </div>
       </div>
       {/* Modal */}

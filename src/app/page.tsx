@@ -3,29 +3,25 @@ import HomeHero from "@/components/pages/home/HomeHero";
 import FeatureRow from "@/components/blocks/feature/FeatureRow";
 import ThreeStepFeature from "@/components/blocks/feature/ThreeFeatureIcons";
 import GridCards from "@/components/blocks/grid/GridCards";
+import CTALeadQuote from "@/components/blocks/CTA/CTALeadQuote";
 
 export default async function Home() {
   return (
     <main>
       <HomeHero />
       <FeatureRow
-        heading="Low Conversion Rates Suck"
+        heading="Make Paid Ads Scalable"
         image={{
-          fileName: "magnet_bzhzsj",
+          fileName: "steps_svp9cj",
           alt: "low-conversion-rate",
+          class: "w-[300px]",
         }}
         button={{
           text: "Get A Free Marketing Audit",
         }}
         alignment="left"
       >
-        <p>
-          It&apos;s a deal breaker. Campaign buster. Soul-crushing stat that
-          makes you second guess everything.
-          <br />
-          What if I told you those sky high conversion rates weren&apos;t only
-          for those screenshots you see all over social?
-        </p>
+        <p>We put your business in front of people who need your stuff.</p>
         <p>
           Low conversion rates mean your messaging is weak, your business
           isn&apos;t well position and your prospects are choosing your
@@ -38,6 +34,7 @@ export default async function Home() {
         image={{
           fileName: "targeting_edylqi",
           alt: "low-conversion-rate",
+          class: "w-[300px]",
         }}
         button={{
           text: "Get A Free Marketing Audit",
@@ -59,17 +56,22 @@ export default async function Home() {
         </p>
       </FeatureRow>
       <FeatureRow
-        heading="You get the customers - we'll build the pipeline"
+        heading="Better Clicks, Better Conversions"
         image={{
-          fileName: "funnel_nk02me",
+          fileName: "search-traffic_gqtvny",
           alt: "low-conversion-rate",
-          class: "md:max-w-[300px]",
+          class: "w-[300px]",
         }}
         button={{
           text: "Get A Free Marketing Audit",
         }}
         alignment="left"
-      ></FeatureRow>
+      >
+        <p className="text-balance">
+          Create sticky ads that get the right people who want to buy to your
+          funnel. <br /> Anyone can push clicks. We drive customers.
+        </p>
+      </FeatureRow>
       <ThreeStepFeature
         heading="How we power ROAS"
         body="We keep things simple and focus on 3 core drivers of success for all campaigns"
@@ -104,6 +106,7 @@ export default async function Home() {
         ]}
       />
       <GridCards />
+      <CTALeadQuote />
     </main>
   );
 }

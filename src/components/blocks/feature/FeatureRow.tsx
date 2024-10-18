@@ -19,16 +19,16 @@ type FeatureRowProps = {
 export default function FeatureRow(props: FeatureRowProps) {
   const { heading, button, image, children, alignment } = props;
   return (
-    <section className="section-padding-medium">
-      <div className="container-global flex flex-col md:flex-row md:gap-12">
+    <section className="section-padding-medium container-global">
+      <div className=" flex flex-col md:flex-row md:gap-12">
         <div
           className={twMerge(
-            "flex flex-col gap-8 w-full",
+            "flex flex-col gap-8 w-full justify-center",
             alignment === "left" && "order-last md:order-first",
             alignment === "right" && "order-last md:order-last"
           )}
         >
-          <h2>{heading}</h2>
+          <h2 className="text-balance">{heading}</h2>
           {children}
           {button && (
             <button className="main-button dark w-full md:w-fit">
@@ -36,8 +36,8 @@ export default function FeatureRow(props: FeatureRowProps) {
             </button>
           )}
         </div>
-        <div className="w-full max-w-[480px] aspect-square flex items-center justify-center">
-          <div className="relative w-full h-fit flex items-center justify-center">
+        <div className="w-full max-w-[80%] mx-auto md:max-w-[480px] aspect-square flex items-center justify-center">
+          <div className="relative :w-full h-fit flex items-center justify-center">
             <Image
               src={`https://res.cloudinary.com/dyouwoic6/image/upload/f_auto,q_auto,w_1200/v1728806393/trimmed-marketing/images/${image.fileName}.png`}
               alt={image.alt}

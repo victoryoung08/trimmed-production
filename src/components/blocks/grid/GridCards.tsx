@@ -25,7 +25,7 @@ export default function GridCards() {
               pipeline... and growing.
             </p>
           </div>
-          <div className="grid-card">
+          <div className="grid-card bg-white">
             <Image
               src={
                 "https://res.cloudinary.com/dyouwoic6/image/upload/f_auto,q_auto,w_1200/v1728806393/trimmed-marketing/images/ratings_obuq8u.png"
@@ -36,14 +36,16 @@ export default function GridCards() {
               className="grid-card-image"
             />
             <h4>Mancave Barbershop Australia</h4>
-            <span>4 New Retail Stores Within 12 Months</span>
+            <span className="text-primary font-semibold">
+              4 New Retail Stores Within 12 Months
+            </span>
             <p>
               New franchise launches turned company playbook resulting in 4 FT
               barbers, 100+ Google Reviews & $300k/year run rate within 3 months
               across all 4 stores.
             </p>
           </div>
-          <div className="grid-card bg-white p-16 pt-20 relative rounded-xl z-4">
+          <div className="grid-card order-4 md:-order-none bg-white p-16 pt-20 relative rounded-xl z-4">
             <Image
               src={
                 "https://res.cloudinary.com/dyouwoic6/image/upload/f_auto,q_auto,w_1200/v1728806393/trimmed-marketing/images/search-traffic_gqtvny.png"
@@ -54,7 +56,10 @@ export default function GridCards() {
               className="grid-card-image"
             />
             <h4>Tutorboss</h4>
-            <span>$4.32 leads resulting in a $60K revenue within 30 days</span>
+            <span className="text-primary font-semibold">
+              $4.32 leads resulting in a $60K revenue
+              <br /> within 30 days
+            </span>
             <p>
               With a combo of Meta Ads and Email Marketing - we shipped landing
               pages, email flows and ad creatives resulting 32 high ticket

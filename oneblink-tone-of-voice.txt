@@ -1,0 +1,1950 @@
+Website: https://stripe.com/au
+
+Products
+Solutions
+Developers
+Resources
+Pricing
+Contact sales 
+Sign in 
+GLOBAL PAYMENTS
+Payments 
+
+Online payments
+
+Payment Links
+ 
+No-code payments
+Checkout
+ 
+Pre-built payment form
+Elements
+ 
+Flexible UI components
+Terminal 
+
+In-person payments
+
+Radar 
+
+Fraud prevention
+
+Authorization 
+
+Acceptance optimisations
+
+EMBEDDED PAYMENTS AND FINANCE
+Connect 
+
+Payments for platforms
+
+REVENUE AND FINANCE AUTOMATION
+Billing 
+
+Subscriptions and usage-based
+
+Revenue Recognition 
+
+Accounting automation
+
+Tax 
+
+Sales tax & VAT automation
+
+Invoicing 
+
+Online invoices
+
+Sigma 
+
+Custom reports
+
+Data Pipeline 
+
+Data sync
+
+MORE
+Payment methods 
+
+Access to 100+ globally
+
+Link 
+
+Accelerated checkout
+
+Financial Connections 
+
+Linked financial account data
+
+Identity 
+
+Online identity verification
+
+Atlas 
+
+Start-up incorporation
+
+BY STAGE
+Enterprises 
+Start-ups 
+BY BUSINESS MODEL
+E-commerce 
+SaaS 
+Platforms 
+Marketplaces 
+BY USE CASE
+Finance automation 
+Embedded finance 
+Global businesses 
+Crypto 
+Creator economy 
+ECOSYSTEM
+Stripe App Marketplace  
+Partners 
+Professional services 
+Documentation 
+
+Start integrating Stripe’s products and tools
+
+GET STARTED
+Pre-built checkout 
+Libraries and SDKs 
+App integrations 
+Code samples 
+GUIDES
+Accept online payments 
+Manage subscriptions 
+Send payments 
+Set up in-person payments 
+Full API reference 
+API status 
+API changelog 
+Build on Stripe Apps 
+Support centre 
+Support plans 
+Guides 
+Customer stories 
+Blog 
+Sessions 
+Contact sales 
+Jobs 
+Newsroom 
+Stripe Press 
+Become a partner 
+Financial infrastructure to grow your revenue
+Financial infrastructure to grow your revenue
+Financial infrastructure to grow your revenue
+Join the millions of companies of all sizes that use Stripe to accept payments online and in person, embed financial services, power custom revenue models, and build a more profitable business.
+Start now 
+ROCKET RIDES
+Search
+Today
+Net volume
+A$3,528,198.72
+14:00
+Yesterday
+A$2,931,556.34
+00:00
+Now, 14:00
+23:59
+AUD Balance
+A$553,257.51
+Available to pay out
+View
+Payouts
+A$102,633.07
+Expected today
+View
+Net volume from sales
++32.8%
+A$39,274.29
+A$29,573.54
+20 Apr
+Today
+Updated today 07:50
+New customers
++32.1%
+37
+28
+20 Apr
+Today
+Updated today 07:50
+Invoices
+Paid
+A$25,000.00
+Open
+A$20,000.00
+Past due
+A$1,000.00
+Updated today 07:50
+Abstraction Magazine
+A$19 per month
+Or pay with card
+Email
+Card Information
+Number
+MM / YY
+CVC
+Country or region
+United States
+ZIP
+Pay
+Cancel
+COMMONWEALTH BANK OF AUSTRALIA (•••• 1234)
+25 OCEAN STREET SYDNEY NSW
+BILLING
+LACHLAN BROWN
+25 OCEAN STREET
+SYDNEY
+NSW 2000
+AUSTRALIA
+CONTACT
+LACHLAN.BROWN@EXAMPLE.COM
+(+61) (02) 9876 5432
+PAY TOTAL
+A$90.00
+Mousedown/⌘
+FF/Rewind
+Right/left
+Stretch
+Up/down
+Amplitude
+-/+
+Zoom
+P
+Pause/play
+1
+Red on/off
+2
+Blue on/off
+3
+Yellow on/off
+4
+Purple on/off
+Modular solutions
+A fully integrated suite of financial and payments products
+
+Reduce costs, grow revenue, and run your business more efficiently on a fully integrated platform. Use Stripe to handle all of your payments-related needs, manage revenue operations, and launch (or invent) new business models.
+
+Payments
+Accept and optimise payments, globally
+
+Increase authorisation rates, optimise your checkout conversion, and offer local payment methods in every market.
+
+Start with Payments 
+See also
+Tax for automating sales tax and VAT
+Radar for fraud prevention and management
+Terminal for custom in-person payments
+Billing
+Capture recurring revenue
+
+Support recurring business models, minimise churn, and automate finance operations.
+
+Start with Billing 
+See also
+Invoicing for invoice creation, collection, and tracking
+Revenue Recognition for streamlined accrual accounting
+Sigma for custom revenue reports
+Connect
+Set up multi-party payments and payouts
+
+Integrate payments into your platform or marketplace for end-to-end payments experiences.
+
+Start with Connect 
+See also
+Terminal for custom in-person payments
+Instant Payouts for fast payments to users
+Payment Elements for customisable UIs
+Issuing
+Build a fintech offering with banking-as-a-service
+
+Launch, manage, and scale a commercial card programme without any setup fees.
+
+Start with Issuing 
+See also
+Treasury for financial accounts
+Capital for offering fast, flexible financing
+Connect for powering platform payments
+Global scale
+The backbone for global commerce
+Stripe makes moving money as easy and programmable as moving data. Our teams are based in offices around the world and we process hundreds of billions of dollars each year for ambitious businesses of all sizes.
+500M+
+API requests per day, peaking at 13,000 requests a second.
+99.999%
+historical uptime for Stripe services.
+47+
+countries with local acquiring.
+135+
+currencies and payment methods supported.
+Enterprise reinvention
+Bring agility to your enterprise
+
+Quickly build great payments experiences, improve performance, expand into new markets, and engage customers with subscriptions and marketplaces. Get expert integration guidance from our professional services team and certified partners, and connect Stripe to Salesforce, SAP, and more through the Stripe App Marketplace.
+
+Explore Stripe for enterprises 
+Millions
+BMW owners using ConnectedDrive Store
+350+
+US dealerships
+Products used
+Payments
+Connect
+5+
+Amazon businesses on Stripe including Prime, Audible, and Amazon Pay.
+50+
+Payment methods available on Stripe
+Products used
+Payments
+Connect
+130
+Countries in logistics network
+$10+
+Billion worth of goods moved around the world each year
+Products used
+Payments
+Connect
++5.5%
+Uplift from Stripe's Global Payments Infrastructure
++1%
+Uplift from Adaptive Acceptance
+Products used
+Payments
+Sigma
+Read story 
+Learn why BMW chose Stripe to power e-commerce and payments
+Read story 
+See how Amazon simplified cross-border payments with Stripe
+Read story 
+See how Maersk tapped into new technology to make it easier to ship around the world
+Read story 
+See how Twilio increased authorization rates by 10% with Stripe
+Built for growth
+Take your startup farther, faster
+Startups build on Stripe to launch faster, adapt as they grow, and automate workflows to do more with less. Build your own API-based integration or use our low- to no-code solutions, which are simple enough for easy implementation and powerful enough to scale as fast and as far as you need.
+Atlas
+Incorporate your company
+Form a legal entity, issue stock, and start accepting payments.
+Learn about Atlas 
+Email
+ella.williams@example.com
+Card information
+1234 1234 1234 1234
+MM/YY
+CVC
+Name on card
+Ella Williams
+Country or region
+Australia
+Checkout
+Sell to consumers
+Launch a B2C business with a prebuilt payment page that’s optimized for conversion.
+Start with Checkout 
+👋 anything I can help with today?
+Hey, can I buy a licence just for myself?
+Sure, in that case I'd recommend our starter plan.
+buy.stripe.com/Ae93Jis
+A$19.99
+PER ITEM
+Scan to pay
+Payment Links
+Validate your idea
+Test your product idea by launching payments with little to no code.
+Try Payment Links 
+A$144.78
+Due 19 Feb
+To
+Jenny Rosen
+From
+Powdur
+Memo
+Note this includes nine editors and unlimited projects.
+View invoice details
+Invoicing
+Sell to businesses
+Launch a B2B business and collect one-time or recurring payments from customers.
+Explore Invoicing 
+Designed for developers
+Ship more quickly with powerful and easy-to-use APIs
+Save engineering time with unified payments functionality. We obsess over the maze of gateways, payments rails, and financial institutions that make up the global economic landscape so that your teams can build what you need on one platform.
+Read the docs 
+~
+NORMAL
+server.js
+100%
+☰
+0/1
+ln
+:
+1
+$
+Use Stripe with your stack
+We offer client and server libraries in everything from React and PHP to .NET and iOS.
+See libraries 
+Try no-code options
+Customize and deploy payments interfaces directly from the Stripe Dashboard.
+Explore no-code 
+Explore pre-built integrations
+Connect Stripe to over a hundred tools including Adobe, Salesforce, and Xero.
+Browse App Marketplace 
+Build on Stripe Apps
+Create an app just for your team or for the millions of businesses on Stripe.
+Learn about Apps 
+Launch with ease
+Low- and no-code options for getting started
+If you’d like to use Stripe for your business but don’t have developers on staff, no problem. We have a few options depending on your needs.
+Use a pre-integrated platform
+Explore our directory to find out-of-the-box solutions that connect with Stripe, such as Squarespace and Lightspeed.
+See directory 
+Build with Stripe-certified experts
+Work with a Stripe consulting partner that can integrate and deploy Stripe solutions for you.
+View partners 
+Brand elements
+Customise how your brand appears globally across the Stripe products your customers use.
+Icon
+Logo
+Brand colour
+F5F0EA
+Accent colour
+262627
+Try our no-code products
+Create an invoice, accept an in-person payment with your phone, or share a payment link directly from your Dashboard to start generating revenue in minutes – no code required.
+Explore no-code 
+Ready to get started?
+
+Create an account instantly to get started or contact us to design a custom package for your business.
+
+Start now 
+Contact sales 
+Always know what you pay
+Integrated per-transaction pricing with no hidden fees.
+Pricing details 
+Start your integration
+Get up and running with Stripe in as little as 10 minutes.
+API reference 
+Australia (English)
+Australia
+English
+Austria
+Deutsch
+English
+Belgium
+Nederlands
+Français
+Deutsch
+English
+Brazil
+Português
+English
+Bulgaria
+English
+Canada
+English
+Français
+Croatia
+English
+Italiano
+Cyprus
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+Svenska
+France
+Français
+English
+Germany
+Deutsch
+English
+Gibraltar
+English
+Greece
+English
+Hong Kong
+English
+简体中文
+Hungary
+English
+India
+English
+Ireland
+English
+Italy
+Italiano
+English
+Japan
+日本語
+English
+Latvia
+English
+Liechtenstein
+Deutsch
+English
+Lithuania
+English
+Luxembourg
+Français
+Deutsch
+English
+Malaysia
+English
+简体中文
+Malta
+English
+Mexico
+Español
+English
+Netherlands
+Nederlands
+English
+New Zealand
+English
+Norway
+English
+Poland
+English
+Portugal
+Português
+English
+Romania
+English
+Singapore
+English
+简体中文
+Slovakia
+English
+Slovenia
+English
+Italiano
+Spain
+Español
+English
+Sweden
+Svenska
+English
+Switzerland
+Deutsch
+Français
+Italiano
+English
+Thailand
+ไทย
+English
+United Arab Emirates
+English
+United Kingdom
+English
+United States
+English
+Español
+简体中文
+© 2024 Stripe, Inc.
+Products & pricing
+Pricing
+Atlas
+Billing
+Capital
+Checkout
+Climate
+Connect
+Data Pipeline
+Elements
+Financial Connections
+Identity
+Invoicing
+Issuing
+Link
+Payments
+Payment Links
+Payouts
+Radar
+Revenue Recognition
+Sigma
+Tax
+Terminal
+Treasury
+Solutions
+Start-ups
+Enterprises
+SaaS
+Platforms
+E-Commerce
+Marketplaces
+Crypto
+Creator economy
+Embedded finance
+Global businesses
+Finance automation
+Integrations & custom solutions
+Stripe App Marketplace
+Partner ecosystem
+Professional services
+Developers
+Documentation
+API reference
+API status
+API changelog
+Stripe Apps
+Resources
+Guides
+Customer stories
+Blog
+Annual conference
+Privacy & terms
+Prohibited & restricted businesses
+Licences
+Sitemap
+Cookie settings
+Company
+Jobs
+Newsroom
+Stripe Press
+Support
+Contact sales
+Support centre
+Support plans
+
+================================================================================
+
+Website: https://webflow.com/
+
+ Discover everything we launched at Webflow Conf 2024
+Read post
+↗
+Skip to main content
+Platform
+Solutions
+Resources
+Enterprise
+Pricing
+Log in
+Contact sales
+Get started — it's free
+MORE THAN A WEBSITE BUILDER
+Your site should do more than look good
+
+As the first-ever website experience platform, Webflow lets marketers, designers, and developers come together to build, manage, and optimize web experiences that get results.
+
+Start building
+Contact sales→
+Design and build
+
+Designers can take control of HTML, CSS, and JavaScript in a visual canvas — while marketers can work with pre-made, design-approved building blocks.
+
+Publish and edit
+
+Choose how you want to add, edit, and update content at scale with Webflow’s CMS: visually in our platform or programmatically through our headless APIs.
+
+Analyze and optimize
+
+Transform your site into your most valuable marketing asset with native tools for AI-powered personalization, A/B testing, SEO, localization, and more.
+
+Scale and collaborate
+
+15,000 websites are published with Webflow every hour. Confidently scale your site with tools for hosting, security, compliance, and publishing — plus connect to your tech stack with integrations and APIs.
+
+ONE POWERFUL PLATFORM
+Design and build
+Publish and edit
+Analyze and optimize
+Scale and collaborate
+Launch pixel-perfect sites
+
+Rethink the web dev cycle with Webflow. Give your design and marketing teams the power to launch sophisticated sites quickly — so your dev team can focus on more complex work, not pixel-perfect revisions.
+
+Get started — it’s free
+Design without limits
+
+Webflow puts the power of code into a visual canvas so every team can create stunning websites quickly — and extend the power of their work with custom code.
+
+Create complex, rich interactions
+
+Design scroll-based and multi-step interactions and animations and easily work with GSAP, Spline, 3D, Lottie, and Rive — all without even thinking about code.
+
+Empower everyone to build on-brand sites
+
+Give less technical teams the tools they need to build confidently with reusable design systems powered by variables, components, and libraries.
+
+Create even faster with the Webflow AI Assistant
+
+Webflow’s AI Assistant lets you build faster and more efficiently by applying your site's existing design system to new page sections.
+
+Discover Designer→
+The best companies build on Webflow
+←
+Slide left
+→
+Slide right
+$1M+
+increased revenue
+
+“Webflow has the power of custom coded web development but the accessibility of a visual interface. It’s intuitive in a way that other platforms simply are not.”
+
+Marcus Jones — COO
+Read story→
+5k
+Faster speed to market
+
+“Webflow's visual-first CMS has been very powerful in helping us save time on shipping new pages. We no longer need to rely on an in-house web developer to build new content.”
+
+Jenny Thai — Head of Content
+Read story→
+20%
+increase in organic traffic
+
+“With Webflow, we’ve significantly improved organic traffic, SEO, and conversions. From my perspective as CMO, that’s a huge win because our brand is reaching more people.”
+
+Elizabeth Walton Egan — CMO
+Read story→
+98%
+Increase in speed to market
+
+“With Webflow Enterprise, we're able to move with trust and confidence that things will get done quickly without compromising our brand or draining resources.”
+
+Cat Origitano — VP of Product & Portfolio Marketing
+Read story→
+3x
+Faster page builds
+
+“Webflow has given our marketing team the freedom to build without compromising on our vision, which is critical in our fast-paced industry.”
+
+Meghan Keaney Anderson — Head of Marketing
+Read story→
+Manage content visually, publish anywhere
+
+Webflow’s visual-first, composable CMS is made for everyone who has a hand in crafting digital experiences — so you can ship high-impact content, faster.
+
+Get started — it’s free
+Seamlessly write, edit, and publish
+
+Write, edit, and update content — or generate it with the help of AI — directly in Webflow, then publish with a click.
+
+Design with dynamic content
+
+Easily create page layouts by adding the elements you want and pulling in content from the CMS. Plus create reusable templates for dynamic content — design the layout once and any new content will automatically follow it. 
+
+Programatically deliver content at scale
+
+Programmatically serve content in and out of Webflow or connect with best-of-breed tools through Webflow’s powerful CMS APIs.
+
+Create fully localized experiences
+
+From design to translation to best-in-class SEO, customize your site for a worldwide audience with a native, end-to-end solution.
+
+Discover CMS→
+AI at Webflow
+
+Webflow’s AI tools elevate your web projects through contextual design and writing help, machine-powered translation, and more.
+
+Discover AI at Webflow→
+Generate styled content quickly
+
+Whether you're trying to build even faster or you’re just new to Webflow, you can use AI Assistant to generate new page sections using your site's existing design system.
+
+Explore documentation→
+Generate text right within Webflow
+
+Quickly and easily create new content, natively within Webflow. From generating first-pass content to publishing at speed, the AI Assistant can help you develop variations with just a few clicks.
+
+Explore documentation→
+Drive real business results, fast
+
+Deliver web experiences that get results with built-in tools for analytics, A/B testing, AI-driven personalization, and SEO.
+
+Get started — it’s free
+Understand site performance
+
+Webflow Analyze puts a native, unified view of visitor behavior into the hands of designers and marketers — so they can make data-driven site improvements.
+
+Iterate, test, repeat
+
+Webflow Optimize gives marketers the tools to increase conversions, including native A/B testing and AI-powered personalization.
+
+Keep your SEO controls under control
+
+Improve your SEO and discoverability with fine-tuned controls, high-performance hosting, and flexible content management tools.
+
+Discover Analyze→
+Scale your site and business
+
+Tools to support your growth — without sacrificing speed, quality, or security.
+
+Collaboration and control
+
+Work better together and avoid unauthorized changes with advanced roles and permissions, publishing workflows, design approvals, and more.
+
+Secure hosting by design
+
+Scale securely with reliable, fast hosting, managed for you — plus launch with peace of mind thanks to Webflow’s robust security and compliance features, so you can grow with uninterrupted momentum.
+
+Security at Webflow→
+Explore hosting→
+APIs and integrations
+
+Connect your site to the tools your team uses every day with native integrations and APIs — plus find and launch apps in Webflow.
+
+Browse apps→
+Developer docs→
+Try it for free
+Get started — it’s free
+
+Try Webflow for as long as you like with our free Starter plan. Purchase a paid Site plan to publish, host, and unlock additional features.
+
+Contact sales
+
+Interested in Webflow Enterprise? Get in touch with our sales team to receive a free personalized demo.
+
+Contact sales→
+Hire a Certified Partner
+
+Extend the power of your team by hiring a Certified Webflow Partner — we'll match you with the best in the business.
+
+Browse Partners→
+Over 3M sites running on Webflow.
+PRODUCT
+Platform
+Designer
+Edit mode
+Interactions
+Page building
+NEW
+CMS
+Hosting
+Localization
+Security
+Ecommerce
+Analyze
+NEW
+Optimize
+NEW
+SEO
+DevLink
+LABS
+Figma to Webflow
+LABS
+Accessibility
+AI
+SOLUTIONS
+Enterprise
+Startups
+Global alliances
+Agencies
+Freelancers
+Classrooms
+RESOURCES
+University
+Blog
+Customer stories
+Webinars and ebooks
+Apps
+Libraries
+Templates
+Developers
+Made in Webflow
+Glossary
+Livestreams
+COMPANY
+About
+Careers
+WE'RE HIRING
+Press
+Webflow Shop
+Terms of Service
+Privacy policy
+Cookie policy
+Cookie preferences
+Accessibility statement
+Sitemap
+COMMUNITY
+Discover the community
+Partner with Webflow
+Certified Partners
+Become a template designer
+Become an affiliate
+Become a Global Leader
+Find a meetup near you
+GET HELP
+Support
+Pricing
+Status
+Forum
+Wishlist
+© 2024 Webflow, Inc. All rights reserved
+
+================================================================================
+
+Website: https://monday.com/enterprise
+
+Skip to main content
+Skip to footer
+Products
+Solutions
+Resources
+Pricing
+Log in
+Contact sales
+Get Started
+
+monday.com named a Leader in the 2023 Gartner® Magic Quadrant™ for Collaborative Work Management
+
+Get the report
+The Work OS for enterprise
+Maximize efficiency with a platform that works at scale and adapts to your enterprise needs. Backed by increased security, analytics, world-class support, and more.
+Let’s talk
+Trusted by leading global enterprise customers across industries
+Real impact you can count on
+$50k
+saved per month using
+monday.com Work OS
+Oscar
+30%
+more efficient at
+delivering campaigns
+O2 Telefónica UK
+3,502h
+saved per month from
+optimizing processes
+Farfetch
+Adapt faster to change
+The Work OS for enterprise enables organizations to quickly adapt to market changes, work at scale, and increase efficiency. Using a centralized source of truth, teams and departments can align on strategy and execution, while maintaining visibility and making data-driven decisions.
+Work with peace of mind
+World-leading security and compliance are built in, ensuring your sensitive organization and customer information always remain protected.
+See how we keep your data secure and protected
+99.9% uptime
+Guaranteed SLA, real-time status page, and credit relief.
+Built-in security and compliance
+IP restrictions
+SCIM provisioning
+Google & Two-factor authentication
+Multi-region data centers
+SAML-based single sign-on (SSO)
+HIPAA, GDPR & SOC 2 Type II compliance
+225,000+
+customers run their everyday
+work on monday.com
+Contact sales
+“As the second-largest software company in Germany, data security is extremely important to us — and we can certainly say that monday.com is enterprise-ready in this context.”
+Bill Carney | VP Growth Marketing
+Advanced data protection
+Audit log
+Session management
+Private workspaces
+Panic mode
+Private boards & files
+Board administrators
+Activity log
+SIEM integration
+Advanced account permissions
+Let a monday.com expert show you how to maximize your organization's efficiency
+First name
+Last name
+Work email
+Job title
+Phone number
+Company name
+Company size
+Select...
+What would you like to manage with monday.com?
+Please select
+How can our team help you?
+By clicking submit, I acknowledge monday.com’s Privacy Policy
+Submit
+Leading customers trust monday.com to power their work
+More than a platform. A partner.
+Tailored and advanced onboarding
+Unlock your organization’s potential faster with our experienced enterprise implementation team.
+Dedicated customer success
+Our experts will help your teams and departments adopt and optimize your monday.com experience.
+Support
+In addition to educational resources, our world-class support are here for you 24/7, with a 10 min average response time.
+Professional services
+Extensive services to accelerate results with custom development to fit your unique needs.
+World-class customer services
+Self-serve knowledge base
+24/7 priority support
+Product certification course
+Advanced onboarding services
+Dedicated implementation services
+Adoption & satisfaction monitoring
+“The hands-on help the CS team provides is priceless. Having direct input on how to optimize boards and automations and set up efficient workflows has accelerated our business.”
+Chris Funk | Director of Product Innovation
+Reporting and analytics
+Bring real-time insights
+to every decision
+Maximize business impact by setting and tracking goals live
+with agile reporting. Combine data from multiple projects into
+streamlined dashboards and make faster, data-driven decisions.
+Pivot analysis and reports
+Work performance insights
+Resource management
+High-level dashboards
+OKR management
+Admin management
+Increased control, visibility,
+and flexibility
+Ensure the right information is shared with the right people such as external and internal stakeholders. Advanced admin controls enable you to set who can create workflows, view boards, and much more.
+Set multi-level permissions
+Admin access control
+Secure workspaces
+Role-based permissions
+Content directory
+Role-based permissions
+Enjoy full transparency and enhanced access control by managing who can do what based on role and job title.
+Contact sales
+Your business tools are here
+From Salesforce to Microsoft Teams — bring in all the tools,
+processes, and data your organization relies on every day
+securely into monday.com.
+Open API
+Developers get full access and freedom to build
+new, custom interactions with a low-code,
+visual apps framework.
+Learn more
+Three-year 346% ROI for Motorola: Forrester research
+The Total Economic Impact™ of monday.com Work OS, a commissioned study conducted by Forrester Consulting, 2022 uncovered the major business benefits for Motorola enabled by monday.com.
+Get the full study
+346%
+three-year ROI
+$121K
+in value due to increased team productivity
+$123K
+saved due to reduction in administrative and reporting time
+Our customers speak for themselves
+monday.com consistently ranks above average
+based on 6,000+ honest customer reviews.
+93%
+Ease of use
+92%
+Quality of support
+92%
+Meets requirements
+96%
+Ease of doing business
+Execute business priorities efficiently
+while keeping your organization aligned
+Contact sales
+Pricing
+Contact us
+Templates
+SMB
+Enterprise
+Nonprofits
+App marketplace
+24/7 support
+Features
+Docs
+Integrations
+Automations
+AI
+Dashboards
+Kanban
+Gantt
+monday products
+monday work management
+monday CRM
+monday dev
+monday service
+Beta
+More by monday.com
+WorkCanvas
+WorkForms
+Use cases
+Marketing
+Project management
+Sales
+Developers
+HR
+IT
+Operations
+Construction
+Company
+About us
+Careers - We're hiring!
+Press
+Customer stories
+Become a partner
+Sustainability & ESG
+Affiliates
+Emergency Response
+Investor relations
+Resources
+Help Center
+Community
+Blog
+What's new
+Academy
+Global events
+monday spaces
+Startup for startup
+App development
+Find a partner
+Hire an expert
+Compare
+English
+Security
+Terms and privacy
+Privacy policy
+Your privacy choices
+Status
+All Rights Reserved © monday.com
+Accessibility statement
+
+================================================================================
+
+Website: https://coda.io/
+
+Skip to content
+Product
+Product
+What is Coda?
+Docs & team hubs
+Trackers & apps
+What's new
+See all →
+AI & integrations
+Coda Brain
+NEW!
+Coda AI
+Integrate your tools
+Consolidate your tools
+Platform
+Packs
+Publishing
+Compare
+vs Notion
+vs Confluence
+vs Quip
+vs Airtable
+See all →
+Solutions
+Solutions
+By role
+Product
+Sales
+Engineering
+See all →
+By scenario
+Planning & OKRs
+Meetings
+Project management
+See all →
+By team size
+Enterprise
+Startups
+Small business
+See all →
+Case studies
+How Qualtrics saves money with Coda.
+See all →
+Resources
+Resources
+Learn
+Guides
+Courses
+Webinars
+FEATURED
+Connect
+Help center
+Coda community
+Hire an expert
+Partner with us
+Extend
+Pack Studio
+Formula list
+API
+Featured guide
+How to build a team hub on Coda
+See all →
+Gallery
+Blog
+Pricing
+Request a demo
+Get started
+
+Your all-in-one collaborative workspace.
+
+Coda brings teams and tools together for a more organized work day.
+
+Get started for free
+Contact sales
+
+A few of the 50,000+ teams collaborating on Coda.
+
+"It’s more powerful than Google Docs and more flexible than Airtable or Notion."
+- Fast Company
+Compare Coda
+Now in private preview: Coda Brain.
+An AI platform that helps teams spend less time hunting for information—and more time putting data to work.
+Learn more
+4 ways 50,000+ teams use Coda to supercharge their work days.
+Writeups
+Coda is familiar like a doc and engaging like an app, so your team can jump in quickly, collaborate effectively, and make decisions that stick.
+Explore Zoom’s decision doc
+Replaces
+Hubs
+Teams move quicker together. So give them a place to get on the same page while centralizing everything from strategy to schedules.
+Explore Coda's team hub
+Replaces
+Trackers
+Tables talk to each other, edits sync everywhere, views are personalized—and you can ditch the hacky spreadsheets.
+Explore Figma’s product roadmap
+Replaces
+Applications
+With Coda, anyone can design a time-saving solution with a formula, button, or automation. And replace niche apps in your tool stack.
+Explore Pinterest’s OKR tracker
+Replaces
+Want to see more?
+Our Gallery is full of solutions published by teams who use Coda to supercharge their work, create a feeling of organization, and foster collaborative workflows.
+Explore the Gallery
+Take the busywork out of your work with Coda AI.
+The connected work assistant that knows your team—and can take action for you.
+Get answers faster with AI chat.
+
+Spark dynamic dialogue with Coda AI to brainstorm, create content, or ask questions.
+
+Create more with AI assistant.
+
+Let Coda AI start from scratch, summarize, or generate tables, so you can share your work—faster.
+
+Save time with AI column.
+
+Turn data into insights, or tedious tasks into auto-generated content with the ability to use AI at scale.
+
+Create workflows across your must-have tools.
+Pull Google Calendars into the team wiki, push updates into Slack automatically, embed Figma files into a project brief, create Jira tickets from feedback tables, and more with our 600+ integrations.
+Browse
+And getting started is easy.
+With customizable solutions and templates for every team.
+
+Product
+
+Sales
+
+Engineering
+
+Design
+
+Marketing
+
+HR
+
+For product teams
+
+Product team hub
+
+Decision doc
+
+$100 voting exercise
+
+Meeting forum
+
+Preview
+
+Product team hub
+
+Everything you need to organize your product team in one place.
+
+Start using this template
+Want to know more about running your
+product team on Coda?
+Coda for product
+Read the handbook
+“Having an all-in-one solution, compared to siloed info, ensures teams can better understand action OKRs and work transparently across the business.”
+Naveen Gavini
+Former SVP of Products at Pinterest
+Collaboration costs (much) less in Coda.
+Charging per seat doesn’t sit well with us. We price Coda differently to erase the limits that hinder expanding teams.
+Get started for free
+Explore pricing
+Company
+About us
+Blog
+Coda on Coda
+Careers
+Press
+Partner with us
+Product
+Compare Coda
+Case studies
+Packs
+API
+Beta program
+Explore Coda
+Solutions
+For PMs
+For sales teams
+For enterprise
+For meetings
+For OKRs
+All solutions
+Popular templates
+Team hub
+OKR tracker
+Meeting notes
+Product roadmap
+Decision doc
+All templates
+Resources
+Help center
+Contact support
+Community
+Learn Coda
+Android app
+iOS app
+Copyright © 2024 Coda. All rights reserved.
+Privacy
+Legal & security
+Status
+Site map
+ Your Privacy Choices
+
+================================================================================
+
+Website: https://coda.io/solutions/role/product-teams
+
+Skip to content
+Product
+Product
+What is Coda?
+Docs & team hubs
+Trackers & apps
+What's new
+See all →
+AI & integrations
+Coda Brain
+NEW!
+Coda AI
+Integrate your tools
+Consolidate your tools
+Platform
+Packs
+Publishing
+Compare
+vs Notion
+vs Confluence
+vs Quip
+vs Airtable
+See all →
+Solutions
+Solutions
+By role
+Product
+Sales
+Engineering
+See all →
+By scenario
+Planning & OKRs
+Meetings
+Project management
+See all →
+By team size
+Enterprise
+Startups
+Small business
+See all →
+Case studies
+How Qualtrics saves money with Coda.
+See all →
+Resources
+Resources
+Learn
+Guides
+Courses
+Webinars
+FEATURED
+Connect
+Help center
+Coda community
+Hire an expert
+Partner with us
+Extend
+Pack Studio
+Formula list
+API
+Featured guide
+How to build a team hub on Coda
+See all →
+Gallery
+Blog
+Pricing
+Request a demo
+Get started
+
+Designed for high-performing product teams.
+
+Three reasons why your product team should run on Coda, from kickoff to launch.
+
+Get started for free
+
+Trusted by product, design, and engineering leaders at:
+
+Product teams need a single source of truth—not multiple siloes.
+Most teams rely on lots of packaged software. Coda consolidates your tool stack into a single source of truth, getting everyone on the same page, literally.
+See how
+Product teams need effective decision-making.
+Struggling to pull actionable decisions from the comments of your Google Docs? Coda helps structure feedback to give your team clarity around the most important questions.
+See how
+Product teams need to unify their planning and execution.
+Simplify the product development cycle—from top-down to bottom-up—by bringing your team into one place, designed to help you get more done.
+See how
+Best practices from the world's top product teams.
+Learn how product leaders got started with Coda, and why they'll never look back.
+Zoom's Decision Doc
+Pinterest's Pyramid OKRs
+Figma's Product Roadmap
+Templates for every stage of your product lifecycle—all in one tool.
+Simple, collaborative, and customizable docs for your team.
+Product team hub.
+
+Bring your applications into one doc and build custom team workflows.
+
+Decision Doc.
+
+Evaluate options, measure sentiment, and come to a clear, final consensus.
+
+$100 voting exercise.
+
+Gain an in-depth understanding of how your team actually feels.
+
+Team links.
+
+Make it easy for your team to find key channels, tools, and meetings.
+
+Meeting notes with AI.
+
+Take meeting notes and automatically capture critical action items with AI.
+
+Product roadmap.
+
+Track launch status, communicate your plans, and align team expectations.
+
+“Having an all-in-one solution, compared to siloed info, ensures teams can better understand action OKRs and work transparently across the business.”
+Naveen Gavini
+Former SVP of Products at Pinterest
+Integrated like no other doc.
+With Packs and 600+ integrations via Zapier, Coda brings all of your must-have tools into one place.
+Jira
+Figma
+Slack
+Google Drive
+Asana
+Salesforce
+GitHub
+Zapier
+
+Learn how Coda connects your workflows and applications.
+
+Explore all Packs
+Named a leader in product management.
+Our reviewers put Coda at the top of 10 different software categories.
+Get started for free.
+
+Ready to ship faster with more alignment?
+
+NEW
+
+Coda for product teams
+
+From kickoff to launch, all in one doc.
+
+Centralize meeting notes, decisions, and more in your new single source of truth.
+
+Get started
+Read the handbook
+Request a demo.
+Our Coda experts are happy to give you a personalized walkthrough.
+Get to know us.
+Learn more about how Coda can power your product team.
+See Coda in action.
+Get an overview of Coda's capabilities, or talk through a specific scenario.
+Get started in Coda.
+Build a doc with live, hands-on guidance.
+First name*
+Last name*
+Business email*
+Phone number*
+Company name*
+Company size*
+Select...
+<25
+25 - 100
+100 - 200
+200 - 500
+500 - 1000
+1000+
+Job title*
+What would you like to talk about?
+Submit
+Fields marked with an asterisk (*) are required.
+By clicking the "Submit" button above, you acknowledge that Coda may use the information you provide to contact you about Coda's products and services and you agree to be contacted by Coda in accordance with Coda's Privacy Policy: coda.io/trust/privacy.
+Company
+About us
+Blog
+Coda on Coda
+Careers
+Press
+Partner with us
+Product
+Compare Coda
+Case studies
+Packs
+API
+Beta program
+Explore Coda
+Solutions
+For PMs
+For sales teams
+For enterprise
+For meetings
+For OKRs
+All solutions
+Popular templates
+Team hub
+OKR tracker
+Meeting notes
+Product roadmap
+Decision doc
+All templates
+Resources
+Help center
+Contact support
+Community
+Learn Coda
+Android app
+iOS app
+Copyright © 2024 Coda. All rights reserved.
+Privacy
+Legal & security
+Status
+Site map
+ Your Privacy Choices
+
+================================================================================
+
+Website: https://www.loom.com/
+
+Skip to 
+content
+Sign In
+Get Loom For Free
+Contact Sales
+Toggle menu close
+One video is worth a thousand words
+
+Easily record and share AI-powered video messages with your teammates and customers to supercharge productivity
+
+Get Loom for free
+Install Chrome Extension
+Open in new window
+More than 25 million people across 400,000 companies choose Loom
+
+New!
+
+You record it, Loom AI writes it for you
+
+Write a document, create an issue, or send a message with new AI workflows. Your video is instantly transformed into text, so you can complete important tasks faster than ever.
+
+Try Loom AI
+The easiest screen recorder you’ll ever use
+
+Record in a few clicks. Share anywhere. Collaborate better.
+
+Lightning fast screen recording
+
+Easily record your screen and camera. Record on any device using Loom’s Chrome extension, desktop app or mobile app.
+
+Download now
+1:1 with Dereje
+1:1 with Sonya
+Focus Work
+Quarterly Budget Meeting
+Project Review
+Q4 Campaign Results
+Results Report
+0:01
+So much more than a screen recorder
+Record once, edit effortlessly
+
+Outsmart the undo button. Instead of restarting, rewind while you’re still recording to get the perfect take. After recording, dial in your video by trimming words from its transcript. With Loom, editing video is as easy as editing a text.
+
+Record now
+Can you show me how to require two-factorauthentication for my team?
+Of course! Here’s a short walkthrough ofthe steps you’ll need to take:loom.com/share/28u2o923
+Share or embed video anywhere you work
+
+From Google Workspace to Slack, Loom videos seamlessly integrate with hundreds of tools you use every day.
+
+Start sharing
+👍
+Great point!
+Yes! Really love this.
+Engage and connect with video
+
+Easily collaborate by adding emojis, comments, tasks and CTAs to your video message. Empower remote teams to communicate better across timezones using transcripts and captions in 50+ languages.
+
+
+
+
+Connect over video
+Keep your content safe
+
+Enterprise-grade security to keep your data and your customer’s data private and secure. We offer SSO, SCIM as well as custom data retention policies and privacy settings.
+
+Learn more
+Video messaging for all use cases
+Sales
+
+Personalize your pitch with video outreach to close more deals.
+
+Engineering
+
+Add visual context to your code to accelerate your sprints.
+
+Customer support
+
+Troubleshoot over video to reach resolutions faster.
+
+Design
+
+Share ideas and provide feedback over video to enhance designs.
+
+See all use cases
+Powerful features for easy, custom recordings
+
+Screen and camera recording
+
+Easy sharing and embedding
+
+Trim and stitch video clips
+
+Download and upload
+
+Transcriptions and closed captions
+
+Video privacy controls
+
+Custom background
+
+Video and viewer insights
+
+See all features
+
+FROM OUR BLOG
+
+How to use async video messaging to improve communication
+When to Choose Synchronous Vs. Asynchronous Communication
+
+This guide explores the intricacies of sync vs. async communication, helps you decide which is the best for your workflow, and introduces how screen recording like Loom bridges the gap between these communication styles.
+
+Read the article
+
+Let Loom AI Do the Work: Say Goodbye to Manual Documentation
+
+With new Loom AI workflows, you turn any Loom into a written doc to draft SOPs, file Jira tickets, and more.
+
+Read the article
+
+Explore our blog
+Loom for Enterprise
+
+Loom for Enterprise helps teams securely manage and organize async video communication at scale
+
+Learn more
+Loom enables us to maximize our impact as a distributed company by helping us collaborate and share ideas more easily.
+
+Andrew Reynolds
+Design Lead, MetaLab
+
+‘Loom has been the light of my life since you showed me it.’ – I never tire of hearing this from folks. Not even an investor... yet.
+
+Alexis Ohanian
+Founder, SevenSevenSix
+
+Loom allows me to connect more personally with people without having to do 75 different one-on-one calls, which is just impossible at scale.
+
+Katie Burke
+Chief People Officer, HubSpot
+
+My teammates and I love using Loom! It has saved us hundreds of hours by creating informative video tutorials instead of long emails or 1-on-1 trainings with customers.
+
+Erica Goodell
+Customer Success, Pearson
+
+Loom amplifies my communication with the team like nothing else has. It's a communication tool that should be in every executive's toolbox.
+
+David Okuinev
+Co-CEO, Typeform
+
+My new daily email habit. Begin writing an email. Get to the second paragraph and think 'what a time suck.' Record a Loom instead. Feel like 😎.
+
+Kieran Flanagan
+VP of Marketing, HubSpot
+
+Loom enables us to maximize our impact as a distributed company by helping us collaborate and share ideas more easily.
+
+Andrew Reynolds
+Design Lead, MetaLab
+
+‘Loom has been the light of my life since you showed me it.’ – I never tire of hearing this from folks. Not even an investor... yet.
+
+Alexis Ohanian
+Founder, SevenSevenSix
+
+Loom works wherever you do.
+
+Get Loom for free
+
+For Mac, Windows, iOS, and Android
+
+Loom Footer Menu
+PRODUCT
+Pricing
+loomSDK
+Screen Recorder
+Chrome Screen Recorder
+Mac Screen Recorder
+Windows Screen Recorder
+iPhone Screen Recorder
+Android Screen Recorder
+USE CASES
+Team Alignment
+Sales
+Engineering
+Design
+Marketing
+Product Management
+Support
+Education
+FOR BUSINESS
+Loom AI
+Enterprise
+Loom HQ
+Customers
+Security
+Video Hosting
+Video Library
+DOWNLOADS
+Desktop App
+Chrome Extension
+Mobile Apps
+RESOURCES
+Blog
+Help & Support
+Community
+eBooks
+Status
+What's New
+Webcam Mic Test
+Webcam Recorder
+COMPANY
+About Us
+Diversity, Equity & Inclusion
+Careers
+Newsroom
+Media Kit
+vs Vidyard
+vs Zoom Clips
+Sitemap
+Privacy Policy
+Loom Terms & Policies
+Notice at Collection
+Open in new window
+© 2024, Loom, Inc. All Rights Reserved.
+
+================================================================================
+
+Website: https://www.loom.com/enterprise
+
+Skip to 
+content
+Sign In
+Get Loom For Free
+Contact Sales
+Toggle menu close
+Companies work smarter with Loom
+
+Loom’s enterprise-grade platform lets organizations securely communicate using async video.
+
+Contact Sales
+Thousands of leading enterprises trust Loom
+Communicate faster with async video
+
+Async video helps organizations communicate faster & build culture.
+
+0:00
+Save time
+
+Teams can communicate more efficiently without typing long emails, scheduling meetings, or trying to work across time zones.
+
+Communicate clearly
+
+Async video captures context, tone, and personality in detail. Distributed teams can preserve the true meaning of their message.
+
+Deepen culture
+
+Make it effortless for anyone in your organization to share ideas, introduce themselves, and build community with fellow teammates using async video.
+
+Drive community and visibility at scale
+Scale knowledge with video
+
+Connect pockets of institutional knowledge by making video messages searchable and discoverable.
+
+Create a culture of sharing
+
+Video messaging encourages your team to share early and often so projects are visible and driven to completion quicker.
+
+Build community at scale
+
+Magnify people’s voices so the whole company can feel connected and heard beyond the boundaries of their team.
+
+Our staff enthusiastically embraced Loom. Rich asynchronous communication is essential to our team's working environment. The Jira Cloud and Confluence integrations are seamless and very powerful.
+
+Harvey Jones
+Workplace Collaboration Lead, Atlassian
+
+Enterprise-grade data protection
+
+Loom protects any and all data on our platform, so you can communicate confidently.
+
+GDPR, CCPA, and SOC 2 Type 2 compliant
+Built on the AWS-backbone with secure and reliable infrastructure
+Equipped with advanced admin controls to protect sensitive information internally
+Secured with encrypted data and industry-standard security frameworks
+Use Loom for all types of communication
+
+Async video can be used for internal and external messages, presentations, and updates by teams across the organization.
+
+50%
+
+fewer meetings across organizations
+
+18%
+
+increase in traffic on webpages with Looms
+
+19%
+
+boost in reply rates across sales outreach
+
+Loom meets your teams where they’re at
+Share Loom videos anywhere with a link
+
+Our patented technology gives users the ability to hit record and share a video link in any tool they’re already using.
+
+Supercharges mission-critical tools
+
+Loom’s integrations give your team the ability to using async video in their favorite tools, without breaking their workflow.
+
+Enhances internal systems
+
+Integrate Loom’s best-of-breed recorder & player into custom intranets and apps to add async video to internal systems.
+
+Choose the plan that's right for your team
+Business
+
+Advanced recording & analytics
+
+Transcriptions & closed captions
+Filler word removal
+Custom branding
+Engagement insights
+Get Started
+Enterprise
+
+Advanced admin & security
+
+SSO (SAML)
+Advanced content privacy
+Salesforce integration (beta)
+SCIM
+Let's Talk
+Loom enables us to maximize our impact as a distributed company by helping us collaborate and share ideas more easily.
+
+Andrew Reynolds
+Design Lead, MetaLab
+
+I think it's the plug-and-play, intuitive, frictionless nature of Loom that allows us to create personalized videos so quickly and see such an impressive increase in our response rate.
+
+Bucky Henry
+Sales Manager, Intercom
+
+Loom gave us an affordable platform to create personalized video content from our laptops, without the need for expensive video production teams.
+
+Chris Radtke
+Sr Director of Content Marketing, Braze
+
+Loom enables us to maximize our impact as a distributed company by helping us collaborate and share ideas more easily.
+
+Andrew Reynolds
+Design Lead, MetaLab
+
+I think it's the plug-and-play, intuitive, frictionless nature of Loom that allows us to create personalized videos so quickly and see such an impressive increase in our response rate.
+
+Bucky Henry
+Sales Manager, Intercom
+
+Ready to improve how your team communicates?
+
+Contact Sales
+Loom Footer Menu
+PRODUCT
+Pricing
+loomSDK
+Screen Recorder
+Chrome Screen Recorder
+Mac Screen Recorder
+Windows Screen Recorder
+iPhone Screen Recorder
+Android Screen Recorder
+USE CASES
+Team Alignment
+Sales
+Engineering
+Design
+Marketing
+Product Management
+Support
+Education
+FOR BUSINESS
+Loom AI
+Enterprise
+Loom HQ
+Customers
+Security
+Video Hosting
+Video Library
+DOWNLOADS
+Desktop App
+Chrome Extension
+Mobile Apps
+RESOURCES
+Blog
+Help & Support
+Community
+eBooks
+Status
+What's New
+Webcam Mic Test
+Webcam Recorder
+COMPANY
+About Us
+Diversity, Equity & Inclusion
+Careers
+Newsroom
+Media Kit
+vs Vidyard
+vs Zoom Clips
+Sitemap
+Privacy Policy
+Loom Terms & Policies
+Notice at Collection
+Open in new window
+© 2024, Loom, Inc. All Rights Reserved.
+
+================================================================================
+
