@@ -1,16 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Be_Vietnam_Pro, Inter_Tight } from "next/font/google";
-
-const beVietnamPro = Be_Vietnam_Pro({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-});
-
-const interTight = Inter_Tight({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-});
+import { interTight } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,11 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${beVietnamPro.className} ${interTight.className} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${interTight.className} antialiased`}>{children}</body>
     </html>
   );
 }

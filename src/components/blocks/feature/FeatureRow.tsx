@@ -28,7 +28,7 @@ export default function FeatureRow(props: FeatureRowProps) {
             alignment === "right" && "order-last md:order-last"
           )}
         >
-          <h2>{heading}</h2>
+          <h2 className="capitalize">{heading}</h2>
           {children}
           {button && (
             <button className="main-button dark w-full md:w-fit">
@@ -36,14 +36,14 @@ export default function FeatureRow(props: FeatureRowProps) {
             </button>
           )}
         </div>
-        <div className="w-full max-w-[480px] aspect-square flex items-center justify-center">
-          <div className="relative w-full h-fit flex items-center justify-center">
+        <div className="w-full max-w-[480px] flex items-start justify-center">
+          <div className="relative w-[360px] h-[360px]flex items-start justify-center">
             <Image
               src={`https://res.cloudinary.com/dyouwoic6/image/upload/f_auto,q_auto,w_1200/v1728806393/trimmed-marketing/images/${image.fileName}.png`}
               alt={image.alt}
               width={600}
               height={600}
-              className={twMerge("max-w-[300px] md:max-w-[400px]", image.class)}
+              className={twMerge("max-w-[300px] md:max-w-[240px]", image.class)}
               style={{
                 objectFit: "contain",
               }}

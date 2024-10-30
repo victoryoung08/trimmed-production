@@ -3,29 +3,52 @@ import HomeHero from "@/components/pages/home/HomeHero";
 import FeatureRow from "@/components/blocks/feature/FeatureRow";
 import ThreeStepFeature from "@/components/blocks/feature/ThreeFeatureIcons";
 import GridCards from "@/components/blocks/grid/GridCards";
+// import CTALeadQuote from "@/components/blocks/CTA/CTALeadQuote";
+import LeadForm from "@/components/ui/LeadForm/LeadForm";
+import ServiceCard from "@/components/blocks/feature/ServiceCard/ServiceCard";
 
 export default async function Home() {
   return (
     <main>
       <HomeHero />
+      <section className="section-padding-medium">
+        <div className="container-global grid grid-cols-1 gap-4 h-full auto-rows-fr">
+          <ServiceCard
+            heading="More leads with"
+            headingHighlight="Google & Meta Ads"
+            body="Grow your business with a steady pipeline of potential customers -
+              not tyre kickers. With laser focused messaging and ad creatives
+              that stand out - only speak with the best customers looking to
+              buy."
+          />
+          <ServiceCard
+            heading="Drive conversion rates"
+            headingHighlight="with landing pages"
+            highlightColor="text-primary"
+            body="Going from 1% to 2% doubles your business. Our clients have gotten 10-20%."
+          />
+          <ServiceCard
+            heading="Push Growth with"
+            headingHighlight="Ads Optimisations and Creatives"
+            highlightColor="text-secondary"
+            body="Don't overspend on leads, and don't spend on leads that don't convert. Find the perfect balance of cost per lead and lead quality."
+          />
+        </div>
+      </section>
+      <GridCards />
       <FeatureRow
-        heading="Low Conversion Rates Suck"
+        heading="Make Paid Ads Scalable"
         image={{
-          fileName: "magnet_bzhzsj",
+          fileName: "steps_svp9cj",
           alt: "low-conversion-rate",
+          class: "w-[300px]",
         }}
         button={{
           text: "Get A Free Marketing Audit",
         }}
         alignment="left"
       >
-        <p>
-          It&apos;s a deal breaker. Campaign buster. Soul-crushing stat that
-          makes you second guess everything.
-          <br />
-          What if I told you those sky high conversion rates weren&apos;t only
-          for those screenshots you see all over social?
-        </p>
+        <p>We put your business in front of people who need your stuff.</p>
         <p>
           Low conversion rates mean your messaging is weak, your business
           isn&apos;t well position and your prospects are choosing your
@@ -34,42 +57,47 @@ export default async function Home() {
         <p>Let&apos;s fix that.</p>
       </FeatureRow>
       <FeatureRow
-        heading="Let's not confuse prospects"
+        heading="Become a no-brainer for your customers"
         image={{
           fileName: "targeting_edylqi",
           alt: "low-conversion-rate",
+          class: "w-[300px]",
         }}
         button={{
           text: "Get A Free Marketing Audit",
         }}
         alignment="left"
       >
+        <p>Attract customers who want to do business with you</p>
         <p>
-          &quot;So what exactly do you do?&quot;
-          <span className="font-semibold">- yikes</span>
-        </p>
-        <p>A common symptom to misguided, misdirected and misaligned message</p>
-        <p>
-          We&apos;ll take what you do, and put it in front of your customers in
-          a way they actually understand.
+          With laser focused messaging, we&apos;ll position your business as the
+          only and best solution for your customers wants and needs
         </p>
         <p>
-          People like you and I only buy from the best. Let&apos;s communicate
-          this.
+          This means no more discounting, no more comparisons and more closes
         </p>
       </FeatureRow>
       <FeatureRow
-        heading="You get the customers - we'll build the pipeline"
+        heading="Solve your lead issues"
         image={{
-          fileName: "funnel_nk02me",
+          fileName: "search-traffic_gqtvny",
           alt: "low-conversion-rate",
-          class: "md:max-w-[300px]",
+          class: "w-[300px]",
         }}
         button={{
           text: "Get A Free Marketing Audit",
         }}
         alignment="left"
-      ></FeatureRow>
+      >
+        <p className="text-balance">
+          What&apos;s the one thing stopping you from growing your business?
+        </p>
+        <p>Yep - a consistent flow of leads</p>
+        <p>
+          Not just emails and phone numbers... but customers who drive revenue.
+        </p>
+        <p>Build a marketing campaign</p>
+      </FeatureRow>
       <ThreeStepFeature
         heading="How we power ROAS"
         body="We keep things simple and focus on 3 core drivers of success for all campaigns"
@@ -103,7 +131,17 @@ export default async function Home() {
           },
         ]}
       />
-      <GridCards />
+
+      <section className="bg-foreground section-padding-small">
+        <div className="section-padding-medium container-global bg-background rounded-2xl">
+          <div className="centered-wrapper">
+            <LeadForm
+              heading="Get a Campaign Strategy"
+              body="Something to compliment the heading"
+            />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
