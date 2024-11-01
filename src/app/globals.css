@@ -37,6 +37,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 20 14.3% 4.1%;
     --foreground: 86 21% 94%;
@@ -80,10 +81,19 @@ body {
   color: rgb(var(--text-foreground));
   @apply bg-background text-foreground;
 }
+
 h1. h2 {
   font-family: var(--font-beVietnamPro);
   letter-spacing: -0.1rem;
-  font-weight: 300; /* Consistent letter spacing for all headings */
+  font-weight: 300;
+  /* Consistent letter spacing for all headings */
+}
+
+input:focus,
+textarea:focus,
+input:hover,
+textarea:hover {
+  box-shadow: none !important;
 }
 
 /* p,
@@ -120,18 +130,23 @@ label {
 /* Section Padding */
 .section-padding-small {
   padding: 64px 0px;
+
   @media (max-width: 768px) {
     padding: 36px 0px;
   }
 }
+
 .section-padding-medium {
   padding: 80px 0px;
+
   @media (max-width: 768px) {
     padding: 48px 0px;
   }
 }
+
 .section-padding-large {
   padding: 128px 0px;
+
   @media (max-width: 768px) {
     padding: 64px 0px;
   }
@@ -152,6 +167,7 @@ label {
 .content-wrapper.center {
   @apply text-center mx-auto;
 }
+
 
 h1,
 h2,
@@ -190,7 +206,7 @@ h5 {
 }
 
 .grid-card-image {
-  @apply absolute top-[-1rem] right-[0rem] max-w-[120px]  sm:top-[-1rem] lg:max-w-[160px] md:top-[-1rem] z-20;
+  @apply absolute top-[-1rem] right-[0rem] max-w-[120px] sm:top-[-1rem] lg:max-w-[160px] md:top-[-1rem] z-20;
 }
 
 .modal {
@@ -214,13 +230,14 @@ h5 {
 }
 
 .lead-form-field {
-  @apply max-w-lg mx-auto flex  flex-col gap-4 py-12;
+  @apply max-w-lg mx-auto flex flex-col gap-4 py-12;
 }
 
 .lead-form-field-wrapper {
   display: flex;
   flex-direction: column;
 }
+
 .lead-form-field-input {
   @apply border-[1px] rounded-md bg-input px-[8px] py-[12px];
 }
@@ -242,10 +259,12 @@ h5 {
   overflow: hidden;
   @apply relative text-primary max-w-4xl mx-auto;
 }
+
 .embla__container {
   display: flex;
   @apply h-[480px];
 }
+
 .embla__slide {
   display: flex;
   flex: 0 0 80%;
@@ -259,6 +278,7 @@ h5 {
 .embla__slide:last-child {
   margin-right: 0px;
 }
+
 .embla__slide:first-child {
   margin-left: 20px;
 }
@@ -271,12 +291,11 @@ h5 {
   height: 100%;
   width: 60px;
   z-index: 20;
-  background-image: linear-gradient(
-    to right,
-    hsl(var(--background)),
-    hsl(var(--muted))
-  );
+  background-image: linear-gradient(to right,
+      hsl(var(--background)),
+      hsl(var(--muted)));
 }
+
 .with-overlay::after {
   content: "";
   position: absolute;
@@ -285,9 +304,7 @@ h5 {
   height: 100%;
   width: 60px;
   z-index: 20;
-  background-image: linear-gradient(
-    to right,
-    hsl(var(--muted)),
-    hsl(var(--background))
-  );
+  background-image: linear-gradient(to right,
+      hsl(var(--muted)),
+      hsl(var(--background)));
 }
