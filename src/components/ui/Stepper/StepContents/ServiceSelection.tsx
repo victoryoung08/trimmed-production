@@ -1,24 +1,33 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Checkbox } from '../../checkbox';
 
 interface ServiceSelectionProps {
-    setServiceDropDown: (value: number | null) => void;
+    setServiceDropDown: (value: number) => void;
+    selected: number | undefined
 }
+export const list = [
+    "Paid Ads/PPC Campaign (Google/Meta)",
+    "Help with our marketing operations and implementation",
+    "Fractional CMO/Strategise and lead our marketing team"
+];
 
-const ServiceSelection: React.FC<ServiceSelectionProps> = ({ setServiceDropDown }) => {
-    const list = [
-        "Paid Ads/PPC Campaign (Google/Meta)",
-        "Help with our marketing operations and implementation",
-        "Fractional CMO/Strategise and lead our marketing team"
-    ];
+const ServiceSelection: React.FC<ServiceSelectionProps> = ({ setServiceDropDown, selected }) => {
+
 
     const [selectedServiceIndex, setSelectedServiceIndex] = useState<number | null>(null);
-
     const handleCheckboxChange = (index: number) => {
         const newIndex = selectedServiceIndex === index ? null : index;
         setSelectedServiceIndex(newIndex);
-        setServiceDropDown(newIndex);
+
+        if (newIndex !== null) {
+            setServiceDropDown(newIndex);
+        }
     };
+    useEffect(() => {
+        if (typeof selected === 'number') {
+            setSelectedServiceIndex(selected);
+        }
+    }, [selected]);
 
     return (
         <div>

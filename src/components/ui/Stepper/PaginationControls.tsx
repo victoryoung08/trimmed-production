@@ -28,9 +28,8 @@ export default function PaginationControls({
                 className="py-2 px-8 rounded-full bg-primary text-white text-sm font-medium"
                 type="button"
                 onClick={onNext}
-                disabled={activeStep === totalSteps - 1}
             >
-                Next
+                {`${activeStep === totalSteps - 1 ? "Submit" : "Next"}`}
             </button>
         </div>
     );

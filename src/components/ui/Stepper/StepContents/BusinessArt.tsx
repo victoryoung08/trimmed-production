@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { CheckCircledIcon } from '@radix-ui/react-icons';
 
 interface BusinessData {
@@ -7,29 +7,43 @@ interface BusinessData {
     body: string;
 }
 
-const BusinessArt: React.FC = () => {
+interface BusinessArtProps {
+    onNext: (data: number | null) => void;
+    selected: number | undefined
+}
+const BusinessArt: React.FC<BusinessArtProps> = ({ onNext, selected }) => {
     const [selectedId, setSelectedId] = useState<number | null>(null);
     const data: BusinessData[] = [
         {
-            id: 1,
+            id: 0,
             title: "New Business",
             body: "You’re just getting started and looking to drive immediate revenue",
         },
         {
-            id: 2,
+            id: 1,
             title: "Growth",
             body: "You’re expanding your team and knuckling down on pipeline, leads and sales.",
         },
         {
-            id: 3,
+            id: 2,
             title: "Scale",
             body: "You’re well into product market fit and you’re looking to launch multiple verticals.",
         },
     ];
 
     const handleSelection = (id: number) => {
-        setSelectedId(prevId => (prevId === id ? null : id));
+        const newIndex = selectedId === id ? null : id;
+        setSelectedId(newIndex);
+
+        if (newIndex !== null) {
+            onNext(newIndex);
+        }
     };
+    useEffect(() => {
+        if (typeof selected === 'number') {
+            setSelectedId(selected);
+        }
+    }, [selected]);
 
     return (
         <div>

@@ -1,5 +1,4 @@
-import ImageBlock from "@/components/ui/imageBlock";
-import { ImageProps } from "next/image";
+import Image, { ImageProps } from "next/image";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 
@@ -13,8 +12,6 @@ export type HeroProps = {
     className?: string;
   };
   image?: ImageProps;
-  alignment?: "left" | "right";
-  textColor?: string;
 };
 
 export default function Incentives({
@@ -22,57 +19,57 @@ export default function Incentives({
   body,
   button,
   image,
-  alignment="left",
-  textColor,
 }: HeroProps) {
   return (
-    <section className="section-padding-large">
-      <div
-        className={twMerge(
-          "container-global md:grid  md:gap-24",
-          alignment === "left"
-            ? "md:grid-cols-2"
-            : alignment === "right"
-              ? "md:grid-cols-2"
-              : alignment === "center"
-                ? "grid-cols-1"
-                : ""
-        )}
-      >
-        <div
-          className={twMerge(
-            "flex flex-col gap-y-6",
-            alignment === "left"
-              ? "items-start text-left order-first "
-              : alignment === "right"
-                ? "items-start text-left order-last "
-                : alignment === "center"
-                  ? "items-center text-center"
-                  : "",
-            textColor
+    <section className="section-padding-large xl:px-0">
+      <div className="flex flex-col gap-y-6 xl:flex-row xl:items-center xl:px-0 px-12">
+        <div className="flex flex-col gap-y-6">
+          <div className="xl:relative xl:right-[-120px]">
+            <h1 className="text-balance capitalize">
+              {heading || "Hero heading goes here"}
+            </h1>
+            <p className="max-w-[454px] text-lg py-5">
+              {body || "Body text to complement the heading goes here"}
+            </p>
+            {button && (
+              <Link href={button.link || "#"} className="main-button-wrapper">
+                <button
+                  onClick={button.function}
+                  className={twMerge(
+                    "px-6 py-4 rounded-md bg-primary text-primary-foreground font-semibold",
+                    button.className
+                  )}
+                >
+                  {button.text}
+                </button>
+              </Link>
+            )}
+          </div>
+        </div>
+        <div className="md:max-w-[766px] w-full md:min-h-[550px] flex items-center rounded-lg xl:rounded-none xl:rounded-s-[96px] bg-white" >
+          {image && (
+            <div className="relative w-[527px] h-[229px] mx-auto">
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
           )}
-        >
-          <h1 className="text-balance capitalize">
-            {heading || "Hero heading goes here"}
-          </h1>
-          <p className="max-w-2xl">
-            {body || "Body text to complement the heading goes here"}
-          </p>
-          {button && (
-            <Link href={button.link || "#"} className="main-button-wrapper">
-              <button
-                onClick={button.function}
-                className={twMerge(
-                  "px-6 py-4 rounded-md bg-primary text-primary-foreground font-semibold",
-                  button.className
-                )}
-              >
-                {button.text}
-              </button>
-            </Link>
+          {!image && (
+            <div className="relative w-[527px] h-[229px] mx-auto">
+              <Image
+                src={`https://picsum.photos/seed/${Math.floor(
+                  Math.random() * 100
+                )}/900/600.webp`}
+                alt="placeholder"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
           )}
         </div>
-        <ImageBlock image={image ? image : null} />
       </div>
     </section>
   );

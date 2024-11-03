@@ -1,14 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Input } from "../../input";
 
-interface FormData {
+export interface FormData {
     name: string;
     phone: string;
     email: string;
     website: string;
 }
 
-export default function MarketingAuditQuote() {
+interface MarketingAuditQuoteProps {
+    onNext: (data: FormData) => void;
+    selected: FormData
+}
+
+export default function MarketingAuditQuote({ onNext, selected }: MarketingAuditQuoteProps) {
     const [formData, setFormData] = useState<FormData>({
         name: "",
         phone: "",
@@ -18,11 +23,16 @@ export default function MarketingAuditQuote() {
 
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = event.target;
-        setFormData((prevData) => ({
-            ...prevData,
-            [name]: value,
-        }));
+        const updatedData = { ...formData, [name]: value };
+        setFormData(updatedData);
+        onNext(updatedData);
     };
+
+    useEffect(() => {
+        if (typeof selected === 'object') {
+            setFormData(selected);
+        }
+    }, [selected]);
 
     return (
         <div>

@@ -1,12 +1,31 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Input } from '../../input';
 
-export default function AdsCampain() {
+interface AdsCampainProps {
+    onNext: (data: string) => void;
+    selected: string | undefined
+}
+
+const AdsCampain: React.FC<AdsCampainProps> = ({ onNext, selected }) => {
+
     const [inputValue, setInputValue] = useState<string>("");
 
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setInputValue(event.target.value);
+        onNext(event.target.value);
     };
+
+    const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+        if (event.key === 'Enter') {
+            onNext(inputValue);
+        }
+    };
+
+    useEffect(() => {
+        if (typeof selected === 'string') {
+            setInputValue(selected);
+        }
+    }, [selected]);
 
     return (
         <div>
@@ -18,15 +37,15 @@ export default function AdsCampain() {
                         type="text"
                         value={inputValue}
                         onChange={handleChange}
+                        onKeyDown={handleKeyDown} // Add onKeyDown to capture Enter key
                         placeholder=""
                         className="border-none focus-visible: outline-none w-[80%]"
                     />
-                    <span className="text-gray-300 text-sm">
-                        per month
-                    </span>
+                    <span className="text-gray-300 text-sm">per month</span>
                 </div>
             </div>
-
         </div>
     );
-}
+};
+
+export default AdsCampain;

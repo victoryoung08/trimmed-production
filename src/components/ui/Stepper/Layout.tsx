@@ -2,12 +2,19 @@
 import React, { ReactNode } from "react";
 import StepButton from "./StepButton";
 import PaginationControls from "./PaginationControls";
+import { StepDataTypes } from "./Stepper";
+
+interface HandleSubmitFunction {
+    (stepData: StepDataTypes): Promise<void>;
+}
 
 interface LayoutProps {
     children: ReactNode;
     activeStep: number;
     setActiveStep: (step: number) => void;
     totalSteps: number;
+    handleSubmit: HandleSubmitFunction;
+    data:StepDataTypes
 }
 
 export default function Layout({
@@ -15,14 +22,17 @@ export default function Layout({
     activeStep,
     setActiveStep,
     totalSteps,
+    data,
+    handleSubmit
 }: LayoutProps) {
 
-    const handleNext = (): void => {
-        if (activeStep < totalSteps - 1) {
+    const handleNext = async (): Promise<void> => {
+        if (activeStep === totalSteps - 1) {
+            await handleSubmit(data);
+        } else if (activeStep < totalSteps - 1) {
             setActiveStep(activeStep + 1);
         }
     };
-
     const handleBack = (): void => {
         if (activeStep > 0) {
             setActiveStep(activeStep - 1);
@@ -41,8 +51,9 @@ export default function Layout({
                         />
                     ))}
                 </div>
-
-                {children}
+                <div className="min-h-[180px]">
+                    {children}
+                </div>
                 <PaginationControls
                     activeStep={activeStep}
                     totalSteps={totalSteps}

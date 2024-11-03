@@ -1,12 +1,30 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { TextBox } from '../../TextBox';
 
-export default function AdsCampaign() {
+interface AdsCampaignProps {
+    onNext: (data: string) => void;
+    selected: string | undefined
+}
+
+const AdsCampaign: React.FC<AdsCampaignProps> = ({ onNext, selected }) => {
     const [inputValue, setInputValue] = useState<string>("");
 
     const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
         setInputValue(event.target.value);
+        onNext(event.target.value);
     };
+
+    const handleKeyDown = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
+        if (event.key === 'Enter') {
+            onNext(inputValue);
+        }
+    };
+
+    useEffect(() => {
+        if (typeof selected === 'string') {
+            setInputValue(selected);
+        }
+    }, [selected]);
 
     return (
         <div>
@@ -17,6 +35,7 @@ export default function AdsCampaign() {
                     <TextBox
                         value={inputValue}
                         onChange={handleChange}
+                        onKeyDown={handleKeyDown} // Add onKeyDown to capture Enter key
                         placeholder=""
                         className="bg-white h-20"
                     />
@@ -24,4 +43,6 @@ export default function AdsCampaign() {
             </div>
         </div>
     );
-}
+};
+
+export default AdsCampaign;
