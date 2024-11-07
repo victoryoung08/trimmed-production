@@ -28,7 +28,7 @@ export default function ServiceCard(props: ServiceCardProps) {
           name={imageName}
           alt={imageName}
           size={160}
-          imageClass="absolute top-[-10%] right-[-5%] md:top-[-20%] md:right-0"
+          imageClass="absolute top-[-10%] right-[-5%] max-w-[120px] md:max-w-full md:top-[-20%] md:right-0"
         />
       )}
     </div>

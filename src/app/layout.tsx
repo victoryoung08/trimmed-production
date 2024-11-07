@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { interTight } from "./fonts";
+import { interTight, beVietnamPro } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${interTight.className} antialiased`}>{children}</body>
+      <body
+        className={`${interTight.variable} ${beVietnamPro.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

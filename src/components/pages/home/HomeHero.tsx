@@ -20,8 +20,8 @@ export default function HomeHero() {
     setShowModal(!showModal);
   };
   return (
-    <section className="section-padding-small relative bg-foreground">
-      <div className="text-center mx-auto max-w-4xl bg-background rounded-2xl">
+    <section className="section-padding-small relative bg-foreground px-12">
+      <div className="text-center mx-auto w-full max-w-[90vw] lg:max-w-4xl bg-background rounded-2xl">
         <div className="py-12 px-5 sm:p-24 flex flex-col items-center gap-8 relative">
           <div className="absolute bottom-0 left-[-48px]">
             <CldImage

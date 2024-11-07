@@ -8,11 +8,10 @@ import LeadForm from "@/components/ui/LeadForm/LeadForm";
 import ServiceCard from "@/components/blocks/feature/ServiceCard/ServiceCard";
 import FeatureWithGrid from "@/components/blocks/feature/FeatureWithGrid/FeatureWithGrid";
 import Navbar from "@/components/ui/Navbar";
-import { getImagesFromFolder } from "@/utils/cloudinary";
 import LogosRow from "@/components/ui/LogosRow";
 
 export default async function Home() {
-  console.log(await getImagesFromFolder("trimmed-marketing/logos", "logos"));
+  // console.log(await getImagesFromFolder("trimmed-marketing/logos", "logos"));
   return (
     <main className="relative">
       <Navbar />
@@ -45,9 +44,9 @@ export default async function Home() {
           />
         </div>
       </section>
-      <GridCards />
       <FeatureWithGrid
-        heading="Your Ad Campaign Lives and Dies by your landing page."
+        id="landingPage"
+        heading="Get your business in front of the right leads"
         body="Clicks are easy, but getting qualified customers to raise their hand up - another story. With a true focus on understanding what your customer wants and position your business as the only solution - expect nothing shy of great conversion rates and less prospects who discount."
         imageGrid={[
           {
@@ -76,8 +75,10 @@ export default async function Home() {
           },
         ]}
       />
+      <GridCards />
+
       <FeatureRow
-        heading="Make Paid Ads Scalable"
+        heading="Craft a mind-reading offer your prospects love"
         image={{
           fileName: "steps_svp9cj",
           alt: "low-conversion-rate",
@@ -88,16 +89,20 @@ export default async function Home() {
         }}
         alignment="left"
       >
-        <p>We put your business in front of people who need your stuff.</p>
+        <p>Think about it from your customers view.</p>
         <p>
-          Low conversion rates mean your messaging is weak, your business
-          isn&apos;t well position and your prospects are choosing your
-          competitors.
+          Why the bloody hell should they give you their contact details - no
+          one wants to be sold to.
         </p>
-        <p>Let&apos;s fix that.</p>
+        <p>
+          That&apos;s why we turn what you do into what your customers need to
+          sign up to.
+          <br /> All with laser focused messaging, industry research and
+          copywriting that hits home.
+        </p>
       </FeatureRow>
       <FeatureRow
-        heading="Become a no-brainer for your customers"
+        heading="Go from idea to leads with campaigns built within 3 weeks"
         image={{
           fileName: "targeting_edylqi",
           alt: "low-conversion-rate",
@@ -108,17 +113,18 @@ export default async function Home() {
         }}
         alignment="left"
       >
-        <p>Attract customers who want to do business with you</p>
+        <p>You&apos;re running a business. You&apos;re serving customers</p>
         <p>
-          With laser focused messaging, we&apos;ll position your business as the
-          only and best solution for your customers wants and needs
+          Why are you watching a tutorial on how to edit your Wordpress page?
         </p>
         <p>
-          This means no more discounting, no more comparisons and more closes
+          Give us 45 minutes of your time and we&apos;ll build you everything
+          you need to roll out an ad campaign within 3 weeks.
         </p>
+        <p>Landing pages, tracking, ad creative - the works.</p>
       </FeatureRow>
       <FeatureRow
-        heading="Solve your lead issues"
+        heading="Grow with a consistent flow and cost of leads"
         image={{
           fileName: "search-traffic_gqtvny",
           alt: "low-conversion-rate",
@@ -130,13 +136,10 @@ export default async function Home() {
         alignment="left"
       >
         <p className="text-balance">
-          What&apos;s the one thing stopping you from growing your business?
+          Your business has ups and downs. Customer queries, operational
+          backlogs... but at least you won&apos;t experience this with leads.
         </p>
-        <p>Yep - a consistent flow of leads</p>
-        <p>
-          Not just emails and phone numbers... but customers who drive revenue.
-        </p>
-        <p>Build a marketing campaign</p>
+        <p>Grow and build your business with a steady cost per lead.</p>
       </FeatureRow>
       <ThreeStepFeature
         heading="How we power ROAS"
@@ -173,7 +176,7 @@ export default async function Home() {
       />
 
       <section className="bg-foreground section-padding-small">
-        <div className="section-padding-medium container-global bg-background rounded-2xl">
+        <div className="section-padding-medium container-global bg-background rounded-2xl max-w-lg">
           <div className="centered-wrapper">
             <LeadForm
               heading="Get a Campaign Strategy"

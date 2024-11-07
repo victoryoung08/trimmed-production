@@ -78,16 +78,17 @@
 
 body {
   font-size: 20px;
-  letter-spacing: -0.05rem;
+  letter-spacing: -0.1rem;
   font-weight: 400;
   color: rgb(var(--text-foreground));
+  font-family: var(--font-beVietnamPro);
   @apply bg-background text-foreground;
 }
 h1,
 h2 {
-  font-family: var(--font-beVietnamPro);
-  letter-spacing: -0.1rem;
-  font-weight: 300; /* Consistent letter spacing for all headings */
+  font-family: var(--font-interTight);
+  letter-spacing: -0.15rem;
+  font-weight: 600 !important; /* Consistent letter spacing for all headings */
 }
 
 /* p,

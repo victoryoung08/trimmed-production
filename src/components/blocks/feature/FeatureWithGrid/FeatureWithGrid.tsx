@@ -14,6 +14,7 @@ type FeatureWithGridProps = {
     link?: string;
   };
   imageGrid?: CldImageProps[];
+  id?: string;
 };
 export default function FeatureWithGrid(props: FeatureWithGridProps) {
   const {
@@ -24,9 +25,13 @@ export default function FeatureWithGrid(props: FeatureWithGridProps) {
       link: "#",
     },
     imageGrid,
+    id,
   } = props;
   return (
-    <section className="section-padding-medium dark bg-background text-foreground">
+    <section
+      className="section-padding-large dark bg-background text-foreground"
+      id={id}
+    >
       <div className="flex flex-col gap-8">
         <div className="centered-wrapper gap-4 container-global text-center">
           <h2 className="capitalize">{heading}</h2>

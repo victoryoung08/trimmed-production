@@ -20,7 +20,7 @@ export default function ThreeStepFeature(props: ThreeStepFeatureProps) {
     <section className="">
       <section className="section-padding-medium dark bg-background text-foreground">
         <div className="container-global">
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col text-center items-center gap-4">
             <h3>{heading}</h3>
             <p>{body}</p>
           </div>

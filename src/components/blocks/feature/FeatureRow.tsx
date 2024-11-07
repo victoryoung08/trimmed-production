@@ -20,7 +20,7 @@ export default function FeatureRow(props: FeatureRowProps) {
   const { heading, button, image, children, alignment } = props;
   return (
     <section className="section-padding-medium">
-      <div className="container-global flex flex-col md:flex-row md:gap-12">
+      <div className="container-global flex flex-col gap-8 md:flex-row md:gap-12">
         <div
           className={twMerge(
             "flex flex-col gap-8 w-full",
@@ -36,14 +36,17 @@ export default function FeatureRow(props: FeatureRowProps) {
             </button>
           )}
         </div>
-        <div className="w-full max-w-[480px] flex items-start justify-center">
-          <div className="relative w-[360px] h-[360px]flex items-start justify-center">
+        <div className="w-fit md:w-full md:max-w-[480px] md:mx-auto flex items-center justify-center">
+          <div className="relative md:w-[360px] md:h-[360px] md:mx-auto flex items-center justify-center">
             <Image
               src={`https://res.cloudinary.com/dyouwoic6/image/upload/f_auto,q_auto,w_1200/v1728806393/trimmed-marketing/images/${image.fileName}.png`}
               alt={image.alt}
               width={600}
               height={600}
-              className={twMerge("max-w-[300px] md:max-w-[240px]", image.class)}
+              className={twMerge(
+                "max-w-[160px] mx-auto md:max-w-[240px]",
+                image.class
+              )}
               style={{
                 objectFit: "contain",
               }}
