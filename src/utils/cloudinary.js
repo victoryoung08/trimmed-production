@@ -188,49 +188,49 @@ export const cloudinary_urls = [
 
 export const logos = [
   {
-    name: "coldcoast_gwlfgx",
-    id: "8d156c957358e5597ba271e8a4dd914a",
-    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730938061/trimmed-marketing/logos/coldcoast_gwlfgx.png",
+    name: "coldcoast_epjfcz",
+    id: "fef78e152cee92677189464f7cdc8705",
+    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730939284/trimmed-marketing/logos/coldcoast_epjfcz.png",
   },
   {
-    name: "credshare_t8mndu",
-    id: "500cd69f446e5f0d08dec029af391b52",
-    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730938062/trimmed-marketing/logos/credshare_t8mndu.png",
+    name: "credshare_trm4ft",
+    id: "8ed78fd5dd8c0da19e26972a4a40052c",
+    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730939284/trimmed-marketing/logos/credshare_trm4ft.png",
   },
   {
-    name: "mancave_zji5xc",
-    id: "4f6a985df32f0406127f10a8efe2f7c8",
-    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730938062/trimmed-marketing/logos/mancave_zji5xc.png",
+    name: "mancave_kwubu5",
+    id: "8f7613e7174867395f0778da78d1fd7b",
+    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730939284/trimmed-marketing/logos/mancave_kwubu5.png",
   },
   {
-    name: "mighty-steps_xro3do",
-    id: "60c004b86a8fd91c9887cac424466f95",
-    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730938061/trimmed-marketing/logos/mighty-steps_xro3do.png",
+    name: "mighty-steps_r0mnue",
+    id: "0366b13cb510d93368e06ca9d3a6754e",
+    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730939284/trimmed-marketing/logos/mighty-steps_r0mnue.png",
   },
   {
-    name: "miraclemint_u7bohl",
-    id: "c45463e5794788ff3d8843165f5fc5a4",
-    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730938061/trimmed-marketing/logos/miraclemint_u7bohl.png",
+    name: "miraclemint_lfjjpw",
+    id: "a253cc74ecc5bdc9f86a1b15505bd24f",
+    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730939285/trimmed-marketing/logos/miraclemint_lfjjpw.png",
   },
   {
-    name: "multiverse_sqmxfq",
-    id: "9a094afb3b552bebb3ecc392128ffa5f",
-    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730938062/trimmed-marketing/logos/multiverse_sqmxfq.png",
+    name: "multiverse_dwo8pk",
+    id: "05bd90d1499f13c6f834fdc6ddd9278d",
+    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730939286/trimmed-marketing/logos/multiverse_dwo8pk.png",
   },
   {
-    name: "sencha_sphxbg",
-    id: "5d56f3847aad3ee7e6fc92bbf3087ed7",
-    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730938061/trimmed-marketing/logos/sencha_sphxbg.png",
+    name: "sencha_xqbbhc",
+    id: "90fa0fd1a5702407bdd786474a8c1960",
+    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730939286/trimmed-marketing/logos/sencha_xqbbhc.png",
   },
   {
-    name: "shabaas_gufdzc",
-    id: "6af995588e7c038cdb7c364866d1dd1e",
-    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730938061/trimmed-marketing/logos/shabaas_gufdzc.png",
+    name: "shabaas_twqvx2",
+    id: "75d956c303bfb6f145a67876b0df93c3",
+    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730939287/trimmed-marketing/logos/shabaas_twqvx2.png",
   },
   {
-    name: "tutorboss_vqtk9y",
-    id: "3a846de03f418b624e771e658139984c",
-    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730938062/trimmed-marketing/logos/tutorboss_vqtk9y.png",
+    name: "tutorboss_rwxprj",
+    id: "9c923c4af2f2852770da6e1ad1a93b03",
+    url: "https://res.cloudinary.com/dyouwoic6/image/upload/v1730939287/trimmed-marketing/logos/tutorboss_rwxprj.png",
   },
 ];
 
@@ -242,7 +242,7 @@ export async function getImagesFromFolder(folderPath, path) {
       max_results: 500,
       timestamp: Date.now(),
     });
-    console.log(result);
+
     return result.resources.map((resource) => ({
       name: extractCloudinaryImageName(resource.public_id, path),
       id: resource.asset_id,
@@ -256,7 +256,7 @@ export async function getImagesFromFolder(folderPath, path) {
 
 const extractCloudinaryImageName = (publicId, path) => {
   const [, suffix] = publicId.split(path);
-  console.log("suffix", suffix);
+  // console.log("suffix", suffix);
   const cleanSuffix = suffix.replace(/\//g, "");
   return cleanSuffix;
 };

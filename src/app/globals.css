@@ -83,7 +83,8 @@ body {
   color: rgb(var(--text-foreground));
   @apply bg-background text-foreground;
 }
-h1. h2 {
+h1,
+h2 {
   font-family: var(--font-beVietnamPro);
   letter-spacing: -0.1rem;
   font-weight: 300; /* Consistent letter spacing for all headings */
@@ -302,4 +303,37 @@ h5 {
 
 .navbar-text {
   @apply font-medium text-base text-foreground whitespace-nowrap;
+}
+
+.logos-scroll {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+.logos-container {
+  display: flex;
+  gap: 40px;
+  animation: scroll 20s linear infinite;
+  white-space: nowrap;
+}
+
+.logo {
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Optional: Pause animation on hover */
+.logos-container:hover {
+  animation-play-state: paused;
 }
