@@ -10,7 +10,8 @@
 
 @layer base {
   :root {
-    --background: 86 21% 94%;
+    /* --background: 86 21% 94%; */
+    --background: 60 25% 92%;
     --foreground: 0 0% 13%;
     --card: 0 0% 100%;
     --card-foreground: 20 14.3% 4.1%;
@@ -38,8 +39,10 @@
     --radius: 0.5rem;
   }
   .dark {
-    --background: 20 14.3% 4.1%;
-    --foreground: 86 21% 94%;
+    /* --background: 20 14.3% 4.1%; */
+    --background: 0 0 13%;
+    /* --foreground: 86 21% 94%; */
+    --foreground: 60 25% 92%;
     --card: 20 14.3% 4.1%;
     --card-foreground: 60 9.1% 97.8%;
     --popover: 20 14.3% 4.1%;
@@ -190,7 +193,7 @@ h5 {
 }
 
 .grid-card-image {
-  @apply absolute top-[-1rem] right-[0rem] max-w-[120px]  sm:top-[-1rem] lg:max-w-[160px] md:top-[-1rem] z-20;
+  @apply absolute top-[1rem] right-[1rem] max-w-[120px]  sm:top-[-1rem] lg:max-w-[160px] md:top-[-1rem] z-20;
 }
 
 .modal {
@@ -290,4 +293,13 @@ h5 {
     hsl(var(--muted)),
     hsl(var(--background))
   );
+}
+
+/* Nav */
+.main-nav a {
+  @apply font-medium;
+}
+
+.navbar-text {
+  @apply font-medium text-base text-foreground whitespace-nowrap;
 }

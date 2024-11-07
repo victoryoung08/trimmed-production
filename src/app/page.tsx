@@ -6,11 +6,18 @@ import GridCards from "@/components/blocks/grid/GridCards";
 // import CTALeadQuote from "@/components/blocks/CTA/CTALeadQuote";
 import LeadForm from "@/components/ui/LeadForm/LeadForm";
 import ServiceCard from "@/components/blocks/feature/ServiceCard/ServiceCard";
+import FeatureWithGrid from "@/components/blocks/feature/FeatureWithGrid/FeatureWithGrid";
+import Navbar from "@/components/ui/Navbar";
+import { getImagesFromFolder } from "@/utils/cloudinary";
+import LogosRow from "@/components/ui/LogosRow";
 
 export default async function Home() {
+  console.log(await getImagesFromFolder("trimmed-marketing/logos", "logos"));
   return (
-    <main>
+    <main className="relative">
+      <Navbar />
       <HomeHero />
+      <LogosRow />
       <section className="section-padding-medium">
         <div className="container-global grid grid-cols-1 gap-4 h-full auto-rows-fr">
           <ServiceCard
@@ -20,22 +27,55 @@ export default async function Home() {
               not tyre kickers. With laser focused messaging and ad creatives
               that stand out - only speak with the best customers looking to
               buy."
+            imageName={"paid-ads-icon_tghnm1"}
           />
           <ServiceCard
             heading="Drive conversion rates"
             headingHighlight="with landing pages"
             highlightColor="text-primary"
             body="Going from 1% to 2% doubles your business. Our clients have gotten 10-20%."
+            imageName={"campaigns_bjhisf"}
           />
           <ServiceCard
             heading="Push Growth with"
             headingHighlight="Ads Optimisations and Creatives"
             highlightColor="text-secondary"
             body="Don't overspend on leads, and don't spend on leads that don't convert. Find the perfect balance of cost per lead and lead quality."
+            imageName={"lead-magnet-light_dipppx"}
           />
         </div>
       </section>
       <GridCards />
+      <FeatureWithGrid
+        heading="Your Ad Campaign Lives and Dies by your landing page."
+        body="Clicks are easy, but getting qualified customers to raise their hand up - another story. With a true focus on understanding what your customer wants and position your business as the only solution - expect nothing shy of great conversion rates and less prospects who discount."
+        imageGrid={[
+          {
+            name: "tutorboss_yxjdv3",
+            alt: "tutorboss landing page",
+            size: 600,
+            imageClass: "pl-1",
+          },
+          {
+            name: "coldcoast_poxwl5",
+            alt: "coldcoast landing page",
+            size: 600,
+            imageClass: "pl-1",
+          },
+          {
+            name: "coreDNA_on4ze1",
+            alt: "coreDNA landing page",
+            size: 600,
+            imageClass: "pl-1",
+          },
+          {
+            name: "miraclemint_l6sneq",
+            alt: "miraclemint landing page",
+            size: 600,
+            imageClass: "pl-1",
+          },
+        ]}
+      />
       <FeatureRow
         heading="Make Paid Ads Scalable"
         image={{

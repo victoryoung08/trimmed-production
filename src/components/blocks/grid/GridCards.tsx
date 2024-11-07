@@ -5,13 +5,13 @@ export default function GridCards() {
     <section className="section-padding-medium">
       <div className="container-global">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="grid-card dark bg-background/90 text-foreground p-16 pt-20 relative rounded-xl z-4">
+          <div className="grid-card dark bg-background text-foreground p-16 pt-20 relative rounded-xl z-4">
             <Image
               src={
                 "https://res.cloudinary.com/dyouwoic6/image/upload/f_auto,q_auto,w_1200/v1728806393/trimmed-marketing/images/steps_svp9cj.png"
               }
               alt="growth"
-              width={200}
+              width={80}
               height={120}
               className="grid-card-image"
             />
@@ -31,7 +31,7 @@ export default function GridCards() {
                 "https://res.cloudinary.com/dyouwoic6/image/upload/f_auto,q_auto,w_1200/v1728806393/trimmed-marketing/images/ratings_obuq8u.png"
               }
               alt="growth"
-              width={200}
+              width={80}
               height={120}
               className="grid-card-image"
             />
@@ -51,7 +51,7 @@ export default function GridCards() {
                 "https://res.cloudinary.com/dyouwoic6/image/upload/f_auto,q_auto,w_1200/v1728806393/trimmed-marketing/images/search-traffic_gqtvny.png"
               }
               alt="growth"
-              width={200}
+              width={80}
               height={120}
               className="grid-card-image"
             />
@@ -66,13 +66,13 @@ export default function GridCards() {
               purchases.
             </p>
           </div>
-          <div className="grid-card dark bg-background/90 text-foreground p-16 pt-20 relative rounded-xl z-4">
+          <div className="grid-card dark bg-background text-foreground p-16 pt-20 relative rounded-xl z-4">
             <Image
               src={
                 "https://res.cloudinary.com/dyouwoic6/image/upload/f_auto,q_auto,w_1200/v1728806393/trimmed-marketing/images/calendar_ahb8hh.png"
               }
               alt="growth"
-              width={200}
+              width={80}
               height={120}
               className="grid-card-image"
             />
