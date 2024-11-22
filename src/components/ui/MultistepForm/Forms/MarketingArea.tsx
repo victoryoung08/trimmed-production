@@ -30,7 +30,7 @@ MarketingAreasProps) {
     {
       value: "marketing-ops",
       heading: "Marketing Operations",
-      body: "You're looking for someone or a team to implement, build and rollout marketing campaigns. Think building funnels, setting up email flows and running your daily marketing operations",
+      body: "You're looking for someone or a team to implement and rollout marketing campaigns. Think building funnels, email flows and running your daily marketing operations",
     },
     {
       value: "marketing-strategy",
@@ -41,7 +41,7 @@ MarketingAreasProps) {
 
   return (
     <FormWrapper title="What area of marketing do you need help with?">
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-fr">
         {fields.map((field) => (
           <label className="w-full" key={field.value}>
             <input
@@ -58,7 +58,9 @@ MarketingAreasProps) {
               )}
             >
               <h5 className="text-[24px]">{field.heading}</h5>
-              <p className="text-[16px] text-pretty">{field.body}</p>
+              <p className="text-[16px] text-pretty text-foreground/80">
+                {field.body}
+              </p>
               <CircleCheck
                 size={24}
                 fill="#222222"

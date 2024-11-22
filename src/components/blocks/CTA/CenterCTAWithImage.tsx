@@ -13,12 +13,12 @@ type CenterCTAWithImageProps = {
 export default function CenterCTAWithImage(props: CenterCTAWithImageProps) {
   const { heading, body, button, image } = props;
   return (
-    <section className="section-padding-large dark bg-background text-foreground">
+    <section className="section-padding-large bg-foreground text-background">
       <div className="flex flex-col gap-8">
         <div className="centered-wrapper gap-4 container-global text-center">
           <h2 className="capitalize">{heading}</h2>
           <p>{body}</p>
-          <Button>{button?.text}</Button>
+          <Button className="bg-primary">{button?.text}</Button>
         </div>
         <Image
           src={image.src}

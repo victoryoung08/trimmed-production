@@ -54,9 +54,14 @@ export default function MultistepForm() {
     });
   }
 
+  const handleBack = () => {
+    setValidStep(true);
+    back();
+  };
+
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
-    if (!validStep) {
+    if (!validStep && !isFirstStep) {
       return;
     }
     if (!isLastStep) next();
@@ -66,7 +71,6 @@ export default function MultistepForm() {
         await sendToCRM(data);
         router.push("/thank-you");
       } catch (error) {
-        // Handle error (e.g., show error message)
         console.error("Failed to submit form:", error);
       } finally {
         setIsLoading(false);
@@ -106,7 +110,7 @@ export default function MultistepForm() {
                 <Button
                   type="button"
                   variant="secondary"
-                  onClick={back}
+                  onClick={handleBack}
                   disabled={isLoading}
                 >
                   Back

@@ -4,8 +4,8 @@ import LogosRow from "@/components/ui/LogosRow";
 
 export default function HomeHero() {
   return (
-    <section className="section-padding-small relative bg-foreground px-12">
-      <div className="text-center mx-auto w-full max-w-[90vw] lg:max-w-4xl bg-background rounded-2xl">
+    <section className="section-padding-small relative bg-foreground px-4">
+      <div className="text-center mx-auto w-full max-w-[100vw] lg:max-w-4xl bg-background rounded-2xl">
         <div className="py-12 px-5 sm:p-24 flex flex-col items-center gap-8 relative">
           <div className="absolute bottom-0 left-[-48px]">
             <CldImage
@@ -60,7 +60,7 @@ export default function HomeHero() {
                   }
                 }}
               >
-                Request a free revenue growth roadmap
+                Request a revenue audit
               </button>
             </div>
           </div>

@@ -22,7 +22,7 @@ export default function BusinessStage({
   }, [businessStage, onValidStep]); // Run once on mount
   const handleChange = (value: string) => {
     updateFields({ businessStage: value });
-    onValidStep?.(true);
+    onValidStep?.(value !== "");
   };
   return (
     <FormWrapper title="Which stage is your business?">
@@ -42,7 +42,7 @@ export default function BusinessStage({
             )}
           >
             <h5>Starting</h5>
-            <p className="text-[16px]">
+            <p className="text-[16px] text-foreground/80">
               You&apos;ve just started your business and want to launch a
               campaign to drive initial growth.
             </p>
@@ -73,7 +73,7 @@ export default function BusinessStage({
             )}
           >
             <h5>Growth</h5>
-            <p className="text-[16px]">
+            <p className="text-[16px] text-foreground/80">
               You&apos;re looking for more leads & sales to grow your team to
               grow out a specific service/s
             </p>
@@ -104,7 +104,7 @@ export default function BusinessStage({
             )}
           >
             <h5>Scale</h5>
-            <p className="text-[16px]">
+            <p className="text-[16px] text-foreground/80">
               You&apos;re looking to grow multiple services for your company and
               launch multiple locations
             </p>

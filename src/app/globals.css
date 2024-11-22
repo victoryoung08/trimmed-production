@@ -53,8 +53,8 @@
     --fs-xl: 1.875rem; /* 30px */
     --fs-2xl: 2.25rem; /* 36px */
     --fs-3xl: 3rem; /* 48px */
-    --fs-4xl: 3.75rem; /* 60px */
-    --fs-5xl: 4.5rem; /* 72px */
+    --fs-4xl: 3.4rem; /* 60px */
+    --fs-5xl: 4.2rem; /* 72px */
 
     /* Line Heights */
     --lh-tight: 1; /* 100% */
@@ -193,7 +193,7 @@
 
   /* Button Styles */
   .main-button {
-    @apply bg-primary text-primary-foreground px-6 py-4 rounded-xl font-semibold;
+    @apply bg-primary text-primary-foreground px-6 py-3 rounded-xl capitalize;
     font-size: var(--fs-base);
   }
 
@@ -293,7 +293,7 @@
 }
 
 .multistep-card_wrapper {
-  @apply outline outline-1 rounded-md p-4 text-left flex flex-col gap-4 relative cursor-pointer;
+  @apply outline outline-1 rounded-md p-4 text-left flex flex-col gap-4 relative cursor-pointer text-sm;
 }
 .multistep-card_wrapper.highlight {
   @apply outline-2;
