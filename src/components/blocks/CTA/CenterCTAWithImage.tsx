@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import ScrollFormButton from "@/components/ui/ScrollFormButton";
 import Image, { ImageProps } from "next/image";
 
 type CenterCTAWithImageProps = {
@@ -18,7 +18,9 @@ export default function CenterCTAWithImage(props: CenterCTAWithImageProps) {
         <div className="centered-wrapper gap-4 container-global text-center">
           <h2 className="capitalize">{heading}</h2>
           <p>{body}</p>
-          <Button className="bg-primary">{button?.text}</Button>
+          <ScrollFormButton buttonClass="bg-primary">
+            <span>{button.text}</span>
+          </ScrollFormButton>
         </div>
         <Image
           src={image.src}

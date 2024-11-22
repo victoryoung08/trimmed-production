@@ -42,7 +42,7 @@ export default function Home() {
         heading="Get your business in front of the right leads"
         body="Clicks are easy, but getting qualified customers to raise their hand up - another story. With a true focus on understanding what your customer wants and position your business as the only solution - expect nothing shy of great conversion rates and less prospects who discount."
         button={{
-          text: "Request a free revenue audit",
+          text: "Get a free revenue audit",
         }}
         image={{
           src: "/landing-page-wrapper.png",
