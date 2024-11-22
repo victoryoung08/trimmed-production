@@ -1,12 +1,12 @@
 import { logos } from "@/utils/cloudinary";
 import Image from "next/image";
-export default async function LogosRow() {
+
+export default function LogosRow() {
   return (
     <section className="dark bg-background text-foreground overflow-hidden py-12">
       <h5 className="mx-auto text-center">Trusted and Partnered With</h5>
       <div className="mt-10">
         <div className="flex items-center justify-center gap-x-12 gap-y-6 max-w-xl w-full mx-auto flex-wrap">
-          {/* First set of logos */}
           {logos?.map((logo) => (
             <Image
               src={logo.url}

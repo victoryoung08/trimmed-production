@@ -1,12 +1,12 @@
-import { v2 as cloudinary } from "cloudinary";
+// import { v2 as cloudinary } from "cloudinary";
 
-cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
-});
+// cloudinary.config({
+//   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+//   api_key: process.env.CLOUDINARY_API_KEY,
+//   api_secret: process.env.CLOUDINARY_API_SECRET,
+// });
 
-export default cloudinary;
+// export default cloudinary;
 
 export const cloudinary_urls = [
   {
@@ -234,29 +234,29 @@ export const logos = [
   },
 ];
 
-export async function getImagesFromFolder(folderPath, path) {
-  try {
-    const result = await cloudinary.api.resources({
-      type: "upload",
-      prefix: folderPath,
-      max_results: 500,
-      timestamp: Date.now(),
-    });
+// export async function getImagesFromFolder(folderPath, path) {
+//   try {
+//     const result = await cloudinary.api.resources({
+//       type: "upload",
+//       prefix: folderPath,
+//       max_results: 500,
+//       timestamp: Date.now(),
+//     });
 
-    return result.resources.map((resource) => ({
-      name: extractCloudinaryImageName(resource.public_id, path),
-      id: resource.asset_id,
-      url: resource.secure_url,
-    }));
-  } catch (err) {
-    console.error("Error fetching images from Cloudinary", err);
-    return [];
-  }
-}
+//     return result.resources.map((resource) => ({
+//       name: extractCloudinaryImageName(resource.public_id, path),
+//       id: resource.asset_id,
+//       url: resource.secure_url,
+//     }));
+//   } catch (err) {
+//     console.error("Error fetching images from Cloudinary", err);
+//     return [];
+//   }
+// }
 
-const extractCloudinaryImageName = (publicId, path) => {
-  const [, suffix] = publicId.split(path);
-  // console.log("suffix", suffix);
-  const cleanSuffix = suffix.replace(/\//g, "");
-  return cleanSuffix;
-};
+// const extractCloudinaryImageName = (publicId, path) => {
+//   const [, suffix] = publicId.split(path);
+//   // console.log("suffix", suffix);
+//   const cleanSuffix = suffix.replace(/\//g, "");
+//   return cleanSuffix;
+// };

@@ -1,3 +1,4 @@
+import ScrollFormButton from "@/components/ui/ScrollFormButton";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 
@@ -31,9 +32,9 @@ export default function FeatureRow(props: FeatureRowProps) {
           <h2 className="capitalize">{heading}</h2>
           {children}
           {button && (
-            <button className="main-button dark w-full md:w-fit">
-              {button.text}
-            </button>
+            <ScrollFormButton>
+              <span>{button.text}</span>
+            </ScrollFormButton>
           )}
         </div>
         <div className="w-fit md:w-full md:max-w-[480px] md:mx-auto flex items-center justify-center">

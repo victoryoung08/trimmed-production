@@ -86,7 +86,10 @@ export default function MultistepForm() {
     return data;
   }
   return (
-    <section className="bg-foreground text-background py-12 md:py-20 px-4">
+    <section
+      className="bg-foreground text-background py-12 md:py-20 px-4"
+      id="multistepForm"
+    >
       {/* {JSON.stringify(data)} */}
       <div className="py-12 container-global bg-background text-foreground rounded-2xl">
         {/* <div>{JSON.stringify(data)}</div> */}

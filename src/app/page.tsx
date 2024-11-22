@@ -3,18 +3,14 @@ import HomeHero from "@/components/pages/home/HomeHero";
 import FeatureRow from "@/components/blocks/feature/FeatureRow";
 import ThreeStepFeature from "@/components/blocks/feature/ThreeFeatureIcons";
 import GridCards from "@/components/blocks/grid/GridCards";
-// import CTALeadQuote from "@/components/blocks/CTA/CTALeadQuote";
 import ServiceCard from "@/components/blocks/feature/ServiceCard/ServiceCard";
-import LogosRow from "@/components/ui/LogosRow";
 import MultistepForm from "@/components/ui/MultistepForm/MultistepForm";
 import CenterCTAWithImage from "@/components/blocks/CTA/CenterCTAWithImage";
 
-export default async function Home() {
-  // console.log(await getImagesFromFolder("trimmed-marketing/logos", "logos"));
+export default function Home() {
   return (
     <main className="relative">
       <HomeHero />
-      <LogosRow />
       <section className="section-padding-medium">
         <div className="container-global grid grid-cols-1 gap-4 h-full auto-rows-fr">
           <ServiceCard

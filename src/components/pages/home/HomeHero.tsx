@@ -1,24 +1,8 @@
 "use client";
 import CldImage from "@/components/ui/CldImage";
-import { CircleCheck, XCircle } from "lucide-react";
-import { useState } from "react";
-import { twMerge } from "tailwind-merge";
-export default function HomeHero() {
-  const [showModal, setShowModal] = useState(false);
-  // const getImages = async () => {
-  //   const images = await fetch("/api/cloudinary", {
-  //     method: "GET",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   });
-  //   const data = await images.json();
-  //   console.log(data);
-  // };
+import LogosRow from "@/components/ui/LogosRow";
 
-  const toggleModal = () => {
-    setShowModal(!showModal);
-  };
+export default function HomeHero() {
   return (
     <section className="section-padding-small relative bg-foreground px-12">
       <div className="text-center mx-auto w-full max-w-[90vw] lg:max-w-4xl bg-background rounded-2xl">
@@ -64,112 +48,26 @@ export default function HomeHero() {
               Leads, pipeline, prospects - you name it.
             </p>
             <div className="md:max-w-md mx-auto md:w-full py-4">
-              <button className="main-button full" onClick={toggleModal}>
+              <button
+                className="main-button full"
+                onClick={() => {
+                  const form = document.getElementById("multistepForm");
+                  if (form) {
+                    window.scrollTo({
+                      top: form.offsetTop,
+                      behavior: "smooth",
+                    });
+                  }
+                }}
+              >
                 Request a free revenue growth roadmap
               </button>
             </div>
           </div>
-          {/* <div className="flex flex-col gap-4">
-            <h5 className="leading-tight">
-              Request a Free Revenue Growth Roadmap
-            </h5>
-            <div className="sm:max-w-lg sm:w-full mx-auto">
-              <div className="flex items-start justify-start mx-auto gap-2">
-                <CircleCheck className="mt-2 flex-shrink-0" size={16} />
-                <p className="text-left">
-                  Identify leaky funnels and 22 optimisation points for your
-                  marketing campaign
-                </p>
-              </div>
-              <div className="flex items-start justify-start mx-auto gap-2">
-                <CircleCheck className="mt-2 flex-shrink-0" size={16} />
-                <p className="text-left">
-                  What your next 90 days will look like working together
-                </p>
-              </div>
-
-              <div className="flex items-start justify-start mx-auto gap-2">
-                <CircleCheck className="mt-2 flex-shrink-0" size={16} />
-                <p className="text-left">
-                  Chat about quick-wins and building long term channels
-                </p>
-              </div>
-            </div>
-
-          </div> */}
         </div>
       </div>
-      {/* Modal */}
-      <div
-        className={twMerge(
-          "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center transition-opacity duration-300",
-          showModal
-            ? "opacity-100 pointer-events-auto"
-            : "opacity-0 pointer-events-none"
-        )}
-      >
-        <div className="bg-white w-full max-w-lg p-12 relative rounded-lg">
-          <div
-            className="absolute top-4 right-4 hover:cursor-pointer"
-            onClick={toggleModal}
-          >
-            <XCircle
-              size={28}
-              strokeWidth="thin"
-              className="text-gray-500 hover:text-gray-700"
-            />
-          </div>
-          <form action="" className="flex flex-col gap-4">
-            <h4 className="capitalize leading-tight text-center">
-              Rolling out a marketing campaign?
-            </h4>
-            <div className="bullets-wrapper">
-              <div className="flex items-start justify-center mx-auto gap-2">
-                <CircleCheck className="mt-2 flex-shrink-0" size={16} />
-                <p>
-                  Uncover revenue leaks in your marketing campaign (or how to
-                  avoid it)
-                </p>
-              </div>
-              <div className="flex items-start justify-center mx-auto gap-2">
-                <CircleCheck className="mt-2 flex-shrink-0" size={16} />
-                <p>Review your messaging, funnel and overall strategy</p>
-              </div>
-              <div className="flex items-start justify-center mx-auto gap-2">
-                <CircleCheck className="mt-2 flex-shrink-0" size={16} />
-                <p>
-                  Discuss how we can work together to build, ship and optimise
-                  your marketing
-                </p>
-              </div>
-            </div>
 
-            <div className="flex flex-col gap-2">
-              <input
-                className="lead-form-field-input"
-                type="text"
-                placeholder="Name"
-                name="name"
-              />
-              <input
-                className="lead-form-field-input"
-                type="email"
-                placeholder="Email"
-                name="email"
-              />
-              <input
-                className="lead-form-field-input"
-                type="phone"
-                placeholder="Phone"
-                name="phone"
-              />
-              <button className="main-button full">
-                Get a Free Marketing Audit
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
+      <LogosRow />
     </section>
   );
 }
