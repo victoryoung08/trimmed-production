@@ -4,11 +4,11 @@ import FeatureRow from "@/components/blocks/feature/FeatureRow";
 import ThreeStepFeature from "@/components/blocks/feature/ThreeFeatureIcons";
 import GridCards from "@/components/blocks/grid/GridCards";
 // import CTALeadQuote from "@/components/blocks/CTA/CTALeadQuote";
-import LeadForm from "@/components/ui/LeadForm/LeadForm";
 import ServiceCard from "@/components/blocks/feature/ServiceCard/ServiceCard";
-import FeatureWithGrid from "@/components/blocks/feature/FeatureWithGrid/FeatureWithGrid";
 import Navbar from "@/components/ui/Navbar";
 import LogosRow from "@/components/ui/LogosRow";
+import MultistepForm from "@/components/ui/MultistepForm/MultistepForm";
+import CenterCTAWithImage from "@/components/blocks/CTA/CenterCTAWithImage";
 
 export default async function Home() {
   // console.log(await getImagesFromFolder("trimmed-marketing/logos", "logos"));
@@ -44,36 +44,16 @@ export default async function Home() {
           />
         </div>
       </section>
-      <FeatureWithGrid
-        id="landingPage"
+      <CenterCTAWithImage
         heading="Get your business in front of the right leads"
         body="Clicks are easy, but getting qualified customers to raise their hand up - another story. With a true focus on understanding what your customer wants and position your business as the only solution - expect nothing shy of great conversion rates and less prospects who discount."
-        imageGrid={[
-          {
-            name: "tutorboss_yxjdv3",
-            alt: "tutorboss landing page",
-            size: 600,
-            imageClass: "pl-1",
-          },
-          {
-            name: "coldcoast_poxwl5",
-            alt: "coldcoast landing page",
-            size: 600,
-            imageClass: "pl-1",
-          },
-          {
-            name: "coreDNA_on4ze1",
-            alt: "coreDNA landing page",
-            size: 600,
-            imageClass: "pl-1",
-          },
-          {
-            name: "miraclemint_l6sneq",
-            alt: "miraclemint landing page",
-            size: 600,
-            imageClass: "pl-1",
-          },
-        ]}
+        button={{
+          text: "Request a free revenue audit",
+        }}
+        image={{
+          src: "/landing-page-wrapper.png",
+          alt: "landing page images",
+        }}
       />
       <GridCards />
 
@@ -174,17 +154,7 @@ export default async function Home() {
           },
         ]}
       />
-
-      <section className="bg-foreground section-padding-small">
-        <div className="section-padding-medium container-global bg-background rounded-2xl max-w-lg">
-          <div className="centered-wrapper">
-            <LeadForm
-              heading="Get a Campaign Strategy"
-              body="Something to compliment the heading"
-            />
-          </div>
-        </div>
-      </section>
+      <MultistepForm />
     </main>
   );
 }

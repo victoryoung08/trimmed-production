@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import { Input } from "../input";
-import { Button } from "../button";
+
+import Image from "next/image";
 
 type LeadFormProps = {
   heading?: string;
@@ -11,10 +12,17 @@ type LeadFormProps = {
     action?: () => void;
   };
   apiRoute?: string;
+  bullets?: string[];
 };
 
 export default function LeadForm(props: LeadFormProps) {
-  const { heading, body, button = { text: "Submit" }, apiRoute } = props;
+  const {
+    heading,
+    body,
+    button = { text: "Submit" },
+    apiRoute,
+    bullets,
+  } = props;
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
@@ -47,40 +55,66 @@ export default function LeadForm(props: LeadFormProps) {
   return (
     <div className="flex flex-col gap-8">
       <div className="content-wrapper center">
-        <h3>{heading}</h3>
-        <p>{body}</p>
+        <h3 className="mb-4">{heading}</h3>
+        <div className="flex flex-col gap-2 text-left mx-auto max-w-[80%">
+          <p className="">{body}</p>
+          {bullets?.map((bullet) => (
+            <div className="flex items-start gap-2" key={bullet}>
+              <Image
+                src="/icon-lightning.png"
+                alt="lightning icon"
+                width={10}
+                height={10}
+                className="rotate-2 mt-[6px]"
+              />
+              <p>{bullet}</p>
+            </div>
+          ))}
+        </div>
       </div>
       <form
-        className="p-8 max-w-md w-full flex flex-col gap-4 mx-auto"
+        className="max-w-md w-full flex flex-col gap-4 mx-auto"
         onSubmit={handleSubmit}
       >
         <div>
+          <label htmlFor="" className="input-label">
+            What&apos;s your name?
+          </label>
           <Input
             type="text"
-            placeholder="Enter Your Name"
-            className="py-5"
+            // placeholder="Enter Your Name"
+            className="py-5 input-field"
             name="name"
           />
         </div>
         <div>
+          <label htmlFor="" className="input-label">
+            What&apos;s your work email address?
+          </label>
+
           <Input
             type="email"
-            placeholder="Enter Your Email"
-            className="py-5"
+            // placeholder="Enter Your Email"
+            className="py-5 input-field"
             name="email"
           />
         </div>
         <div>
+          <label htmlFor="" className="input-label">
+            What&apos;s your best contact number?
+          </label>
           <Input
             type="phone"
-            placeholder="Enter Your Phone"
-            className="py-5"
+            // placeholder="Enter Your Phone"
+            className="py-5 input-field"
             name="phone"
           />
         </div>
-        <Button className="py-5" type="submit">
-          {button.text}
-        </Button>
+        <div className="md:max-w-md mx-auto md:w-full py-4">
+          <button className="main-button full" type="submit">
+            {button.text}
+          </button>
+        </div>
       </form>
     </div>
   );
