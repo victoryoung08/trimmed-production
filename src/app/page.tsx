@@ -5,7 +5,6 @@ import ThreeStepFeature from "@/components/blocks/feature/ThreeFeatureIcons";
 import GridCards from "@/components/blocks/grid/GridCards";
 // import CTALeadQuote from "@/components/blocks/CTA/CTALeadQuote";
 import ServiceCard from "@/components/blocks/feature/ServiceCard/ServiceCard";
-import Navbar from "@/components/ui/Navbar";
 import LogosRow from "@/components/ui/LogosRow";
 import MultistepForm from "@/components/ui/MultistepForm/MultistepForm";
 import CenterCTAWithImage from "@/components/blocks/CTA/CenterCTAWithImage";
@@ -14,7 +13,6 @@ export default async function Home() {
   // console.log(await getImagesFromFolder("trimmed-marketing/logos", "logos"));
   return (
     <main className="relative">
-      <Navbar />
       <HomeHero />
       <LogosRow />
       <section className="section-padding-medium">
