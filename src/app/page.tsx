@@ -9,7 +9,7 @@ import CenterCTAWithImage from "@/components/blocks/CTA/CenterCTAWithImage";
 
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="relative overflow-hidden">
       <HomeHero />
       <section className="section-padding-medium">
         <div className="container-global grid grid-cols-1 gap-4 h-full auto-rows-fr">
@@ -116,13 +116,13 @@ export default function Home() {
         <p>Grow and build your business with a steady cost per lead.</p>
       </FeatureRow>
       <ThreeStepFeature
-        heading="How we power ROAS"
+        heading="How we power results"
         body="We keep things simple and focus on 3 core drivers of success for all campaigns"
         steps={[
           {
             step: "1",
             heading: "Laser Focused Messaging",
-            body: "Speak to the heart and soul of your customers. What keeps them up at night, what drives them to buy - we research all this.",
+            body: "Speak to the heart and soul of your customers. Their pain points, wants and desires. All to position your business as the best option.",
             image: {
               fileName: "heart-target_pbkbvk",
               alt: "heart-target_pbkbvk",
@@ -130,8 +130,8 @@ export default function Home() {
           },
           {
             step: "2",
-            heading: "Build",
-            body: "Turn messaging into a landing page that makes your customers question how do you know them so well?",
+            heading: "Implement Strategy",
+            body: "Turn ideas into profitable marketing campaigns to grow your business",
             image: {
               fileName: "puzzle_tdalkn",
               alt: "build-landing-pages-icon",

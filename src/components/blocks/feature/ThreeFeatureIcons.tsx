@@ -18,10 +18,10 @@ export default function ThreeStepFeature(props: ThreeStepFeatureProps) {
   const { heading, body, steps } = props;
   return (
     <section className="">
-      <section className="section-padding-medium dark bg-background text-foreground">
+      <section className="section-padding-medium bg-foreground text-background">
         <div className="container-global">
           <div className="flex flex-col text-center items-center gap-4">
-            <h3>{heading}</h3>
+            <h3 className="capitalize">{heading}</h3>
             <p>{body}</p>
           </div>
           {steps && (
